@@ -292,15 +292,15 @@ export const getTechBadge = (tech: string): TechBadgeCfg | null =>
 // Perfil (datos generales)
 // ─────────────────────────────────────────────────────────────
 export const PERFIL = {
-  name: "María Rosete",
-  role: "Desarrolladora backend .NET / Spring Boot con perfil full stack.",
+  name: "Raúl Montiel",
+  role: "Maquetador Web y UX/UI Designer.",
   about:
-    "Me centro en el desarrollo de APIs REST y aplicaciones web, cuidando la claridad del código, la mantenibilidad y las buenas prácticas. Además, tengo experiencia en frontend con React, Vue.js y Angular, lo que me permite tener una visión global del desarrollo de aplicaciones web.",
+    "Me centro en el desarrollo de aplicaciones web, cuidando la claridad del código, la mantenibilidad y las buenas prácticas. Además, tengo experiencia en frontend con React, Vue.js y Angular, lo que me permite tener una visión global del desarrollo de aplicaciones web.",
   photo: portada,
   socials: {
-    email: "mailto:marlarosete89@gmail.com",
-    linkedin: "https://linkedin.com/in/mariarosetesuarez",
-    github: "https://github.com/mariarosete",
+    email: "mailto:ramontyfe@hotmail.com",
+    linkedin: "https://www.linkedin.com/in/raulmontiel/",
+    github: "https://github.com/RaulMonty",
   },
   cv: "https://github.com/mariarosete/mariarosete/raw/main/assets/cv/CV_MRS.pdf",
 };

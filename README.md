@@ -2,7 +2,7 @@
 
 ![Banner Portafolio](https://github.com/mariarosete/portafolio/blob/main/banner.png?raw=true)
 
-Portfolio personal desarrollado con **React**, **Vite** y **TailwindCSS**, donde presento mis proyectos, experiencia y stack tecnológico como desarrolladora backend y full stack.<br>
+Portfolio personal desarrollado con **React**, **Vite** y **TailwindCSS**, donde presento mis proyectos, experiencia y stack tecnológico como Maquetador Web y UX/UI Designer.<br>
 Diseñado para mostrar proyectos reales de forma clara, visual y profesional.
 
 ---
@@ -11,7 +11,7 @@ Diseñado para mostrar proyectos reales de forma clara, visual y profesional.
 
 Puedes ver el portfolio aquí:
 
-👉 https://mariarosete.vercel.app/
+👉 https://raulmontiel.vercel.app/
 
 📱💻 Diseño responsive, adaptado a móvil y escritorio.
 
@@ -40,7 +40,7 @@ Puedes ver el portfolio aquí:
 
 ## Aspectos destacados
 
-- Portfolio completo enfocado a desarrollo **backend y full stack**  
+- Portfolio completo enfocado a **Maquetador Web y UX/UI Designer**  
 - Organización clara de proyectos, experiencia y stack tecnológico  
 - Diseño visual coherente y profesional  
 - Preparado para mostrar proyectos reales en producción  
@@ -50,17 +50,17 @@ Puedes ver el portfolio aquí:
 ## 📩 Contacto
 
 <p align="center">
-  <a href="mailto:marlarosete89@gmail.com">
+  <a href="mailto:ramontyfe@hotmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/mariarosetesuarez">
+  <a href="https://www.linkedin.com/in/raulmontiel/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://github.com/mariarosete">
+  <a href="https://github.com/RaulMonty">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
 ---
 
-<p align="center">Desarrollado con ❤️ por <b>María Rosete</b></p>
+<p align="center">Desarrollado con ❤️ por <b>Raúl Montiel</b></p>

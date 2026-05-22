@@ -66,10 +66,10 @@ const Contacto: React.FC = () => (
                   </p>
 
                   <a
-                    href="mailto:marlarosete89@gmail.com"
+                    href="mailto:ramontyfe@hotmail.com"
                     className="mt-2 block break-all text-white font-medium hover:text-rose-300 transition"
                   >
-                    marlarosete89@gmail.com
+                    ramontyfe@hotmail.com
                   </a>
                 </div>
               </div>

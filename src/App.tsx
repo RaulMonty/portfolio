@@ -183,9 +183,9 @@ export default function App() {
 
                     <div className="mt-6 space-y-4 text-[15px] sm:text-base leading-8 text-white/72">
                       <p>
-                        Soy María Rosete, desarrolladora backend con .NET, especializada en{" "}
-                        <strong className="text-white font-semibold">APIs REST</strong> y{" "}
-                        <strong className="text-white font-semibold">aplicaciones web</strong>.
+                        Soy Raúl Montiel, desarrollador frontend, especializado en{" "}
+                        <strong className="text-white font-semibold">maquetación web</strong> y{" "}
+                        <strong className="text-white font-semibold">diseño UX/UI</strong>.
                       </p>
 
                       <p>
