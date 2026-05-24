@@ -168,7 +168,7 @@ const Hero: React.FC = () => {
             {/* DERECHA */}
             <div className="relative flex justify-center lg:justify-end">
               <div className="relative w-full max-w-[620px] min-h-[360px] sm:min-h-[420px] lg:min-h-[520px] flex items-center justify-center">
-                <div className="absolute inset-0 rounded-[40px] bg-gradient-to-br from-cyan-300/20 via-fuchsia-500/10 to-amber-300/20 blur-3xl scale-95" />
+                <div className="absolute inset-0 rounded-[40px] bg-gradient-to-br from-cyan-300/20 via-blue-300/10 to-amber-300/20 blur-3xl scale-95" />
 
                 {/* anillo orbital móvil + desktop */}
                 <div className="absolute inset-[10%] sm:inset-[6%] rounded-full border border-white/[0.04]" />
@@ -200,7 +200,7 @@ const Hero: React.FC = () => {
                 )}
 
                 {/* Imagen */}
-                <div className="relative z-10 inline-block rounded-[24px] p-[1px] bg-gradient-to-br from-cyan-300/70 via-fuchsia-500/45 to-violet-500/55 shadow-[0_24px_60px_-28px_rgba(0,0,0,0.7)]">
+                <div className="relative z-10 inline-block rounded-[24px] p-[1px] bg-gradient-to-br from-cyan-300/70 via-blue-300/45 to-violet-500/55 shadow-[0_24px_60px_-28px_rgba(0,0,0,0.7)]">
                   <div className="rounded-[24px] bg-[#12071f]/80 p-2 backdrop-blur-xl">
                     <div className="overflow-hidden rounded-[18px] bg-gradient-to-br from-[#12071f] via-[#0b0818] to-[#14070d] p-2">
                       <img

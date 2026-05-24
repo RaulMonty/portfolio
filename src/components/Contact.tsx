@@ -36,7 +36,7 @@ const Contacto: React.FC = () => (
         </p>
 
         { }
-        <div className="mt-8 rounded-[28px] p-[1px] bg-gradient-to-br from-cyan-300/16 via-fuchsia-500/8 to-amber-300/8 shadow-[0_16px_55px_-30px_rgba(0,0,0,0.65)]">
+        <div className="mt-8 rounded-[28px] p-[1px] bg-gradient-to-br from-cyan-300/16 via-blue-300/8 to-amber-300/8 shadow-[0_16px_55px_-30px_rgba(0,0,0,0.65)]">
           <div className="rounded-[28px] border border-white/10 bg-[#120b1f]/80 backdrop-blur-xl p-5 sm:p-6">
             <p className="text-[11px] uppercase tracking-[0.28em] text-cyan-200">
               Disponibilidad
@@ -53,7 +53,7 @@ const Contacto: React.FC = () => (
 
         {/* Datos de contacto */}
         <div className="mt-8">
-          <div className="max-w-[420px] rounded-[24px] p-[1px] bg-gradient-to-br from-cyan-300/14 via-fuchsia-500/8 to-amber-300/8">
+          <div className="max-w-[420px] rounded-[24px] p-[1px] bg-gradient-to-br from-cyan-300/14 via-blue-300/8 to-amber-300/8">
             <div className="rounded-[24px] border border-white/10 bg-[#120b1f]/80 backdrop-blur-xl p-4">
               <div className="flex items-start gap-3">
                 <div className="grid h-11 w-11 shrink-0 place-items-center rounded-2xl border border-cyan-300/20 bg-cyan-300/10 text-cyan-200">
@@ -124,7 +124,7 @@ const Contacto: React.FC = () => (
       {/* COLUMNA DERECHA */}
 
 {/* COLUMNA DERECHA */}
-<div className="xl:mt-10 w-full xl:max-w-[720px] xl:ml-auto rounded-[32px] p-[1px] bg-gradient-to-br from-cyan-300/18 via-fuchsia-500/8 to-amber-300/8 shadow-[0_20px_70px_-35px_rgba(0,0,0,0.7)]">
+<div className="xl:mt-10 w-full xl:max-w-[720px] xl:ml-auto rounded-[32px] p-[1px] bg-gradient-to-br from-cyan-300/18 via-blue-300/8 to-amber-300/8 shadow-[0_20px_70px_-35px_rgba(0,0,0,0.7)]">
   <div className="rounded-[32px] border border-white/10 bg-[#120b1f]/80 backdrop-blur-xl p-5 sm:p-6 md:p-8">
     <div className="flex items-center gap-3">
       <div className="grid h-11 w-11 place-items-center rounded-2xl border border-cyan-300/20 bg-cyan-300/10 text-cyan-200">

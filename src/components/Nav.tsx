@@ -66,7 +66,7 @@ const Nav: React.FC = () => {
         <span className="relative z-10">{children}</span>
 
         <span
-          className={`absolute left-2 right-2 -bottom-0.5 h-[2px] rounded-full bg-gradient-to-r from-cyan-300 via-sky-300 to-fuchsia-500 transition-opacity ${esActivo ? "opacity-100" : "opacity-0 group-hover:opacity-100"
+          className={`absolute left-2 right-2 -bottom-0.5 h-[2px] rounded-full bg-gradient-to-r from-cyan-300 via-sky-300 to-blue-300 transition-opacity ${esActivo ? "opacity-100" : "opacity-0 group-hover:opacity-100"
             }`}
         />
       </a>
@@ -88,7 +88,7 @@ const Nav: React.FC = () => {
         href={href}
         onClick={() => setAbierto(false)}
         className={`group flex items-center justify-between rounded-2xl px-4 py-3.5 transition ${esActivo
-          ? "bg-gradient-to-r from-cyan-300/14 to-fuchsia-500/10 border border-cyan-300/20 text-white"
+          ? "bg-gradient-to-r from-cyan-300/14 to-blue-300/10 border border-cyan-300/20 text-white"
           : "border border-transparent text-white/78 hover:bg-white/[0.04] hover:text-cyan-100"
           }`}
       >
@@ -170,7 +170,7 @@ const Nav: React.FC = () => {
               text-sm font-semibold text-white/90
               border border-white/10 bg-white/5
               backdrop-blur-xl
-              transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-200
+              transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-cyan-50
             "
           >
             <FileDown className="w-4 h-4" />
@@ -226,7 +226,7 @@ const Nav: React.FC = () => {
 
           <div
             className="fixed top-[76px] inset-x-0 z-50 mx-4 rounded-[28px] p-[1px]
-                       bg-gradient-to-br from-cyan-300/30 via-fuchsia-500/15 to-amber-300/15
+                       bg-gradient-to-br from-cyan-300/30 via-blue-300/15 to-amber-300/15
                        shadow-[0_24px_70px_-20px_rgba(0,0,0,.6)]"
             role="dialog"
             aria-modal="true"

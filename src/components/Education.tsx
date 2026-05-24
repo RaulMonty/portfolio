@@ -36,7 +36,7 @@ const Educacion: React.FC = () => (
     </div>
 
     <div className="relative mt-12 md:mt-14">
-      <div className="absolute left-[15px] top-2 bottom-2 hidden md:block w-px bg-gradient-to-b from-cyan-300/50 via-fuchsia-500/20 to-transparent" />
+      <div className="absolute left-[15px] top-2 bottom-2 hidden md:block w-px bg-gradient-to-b from-cyan-300/50 via-blue-300/20 to-transparent" />
 
       <div className="space-y-6 md:space-y-7">
         {EDUCACION.map((estudio, index) => (
@@ -54,7 +54,7 @@ const Educacion: React.FC = () => (
             </div>
 
             {/* card */}
-            <div className="max-w-4xl rounded-[24px] p-[1px] bg-gradient-to-br from-cyan-300/18 via-fuchsia-500/8 to-amber-300/8 shadow-[0_16px_55px_-32px_rgba(0,0,0,0.65)]">
+            <div className="max-w-4xl rounded-[24px] p-[1px] bg-gradient-to-br from-cyan-300/18 via-blue-300/8 to-amber-300/8 shadow-[0_16px_55px_-32px_rgba(0,0,0,0.65)]">
               <div className="rounded-[24px] border border-white/10 bg-[#120b1f]/80 backdrop-blur-xl px-5 py-4 sm:px-6 sm:py-5 md:px-6 md:py-5 transition-all duration-300 hover:-translate-y-[2px] hover:bg-[#171126]/85">
                 <div className="flex flex-col gap-4 sm:gap-5">
                   {/* cabecera */}

@@ -57,7 +57,7 @@ const Experiencia: React.FC = () => {
               className="relative h-full"
             >
               {/* Card */}
-              <div className="h-full rounded-[24px] p-[1px] bg-gradient-to-br from-cyan-300/18 via-fuchsia-500/8 to-amber-300/8 shadow-[0_16px_55px_-32px_rgba(0,0,0,0.65)]">
+              <div className="h-full rounded-[24px] p-[1px] bg-gradient-to-br from-cyan-300/18 via-blue-300/8 to-amber-300/8 shadow-[0_16px_55px_-32px_rgba(0,0,0,0.65)]">
                 <div className="h-full rounded-[24px] border border-white/10 bg-[#120b1f]/80 backdrop-blur-xl px-5 py-5 sm:px-6 sm:py-6 transition-all duration-300 hover:-translate-y-[2px] hover:bg-[#171126]/85">
                   <div className="flex h-full flex-col gap-5">
                     {/* fila superior */}

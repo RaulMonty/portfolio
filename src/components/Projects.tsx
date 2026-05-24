@@ -94,7 +94,7 @@ const Proyectos: React.FC = () => {
                 transition={{ duration: 0.4 }}
                 className="group min-w-[82%] snap-start"
               >
-                <div className="h-full rounded-[26px] p-[1px] bg-gradient-to-br from-cyan-300/20 via-fuchsia-500/10 to-amber-300/10 shadow-[0_18px_60px_-30px_rgba(0,0,0,0.65)]">
+                <div className="h-full rounded-[26px] p-[1px] bg-gradient-to-br from-cyan-300/20 via-blue-300/10 to-amber-300/10 shadow-[0_18px_60px_-30px_rgba(0,0,0,0.65)]">
                   <div className="rounded-[26px] border border-white/10 bg-[#120b1f]/80 backdrop-blur-xl overflow-hidden h-full">
                     <div
                       onClick={() => toggleImage(key)}
@@ -172,7 +172,7 @@ const Proyectos: React.FC = () => {
                                   "inline-flex items-center gap-1 rounded-full px-1.5 py-[3px] text-[8px] font-medium ring-1 whitespace-nowrap",
                                   badge
                                     ? `${badge.ring} ${badge.bg}`
-                                    : "text-slate-700 bg-gradient-to-r from-rose-50 to-amber-50 ring-rose-200/60",
+                                    : "text-slate-700 bg-gradient-to-r from-rose-50 to-amber-50 ring-cyan-50/60",
                                 ].join(" ")}
                                 title={tecno}
                               >
@@ -221,7 +221,7 @@ const Proyectos: React.FC = () => {
                 transition={{ duration: 0.4 }}
                 className="group h-full"
               >
-                <div className="h-full rounded-[28px] p-[1px] bg-gradient-to-br from-cyan-300/20 via-fuchsia-500/10 to-amber-300/10 shadow-[0_18px_60px_-30px_rgba(0,0,0,0.65)]">
+                <div className="h-full rounded-[28px] p-[1px] bg-gradient-to-br from-cyan-300/20 via-blue-300/10 to-amber-300/10 shadow-[0_18px_60px_-30px_rgba(0,0,0,0.65)]">
                   <div className="rounded-[28px] border border-white/10 bg-[#120b1f]/80 backdrop-blur-xl overflow-hidden h-full">
                     <div className="relative aspect-[16/9] overflow-hidden bg-[#0f0a1a]">
                       <img
@@ -282,7 +282,7 @@ const Proyectos: React.FC = () => {
                                   "inline-flex items-center gap-2 rounded-full px-2.5 py-1 text-[10.5px] sm:text-[11px] font-medium ring-1 whitespace-nowrap",
                                   badge
                                     ? `${badge.ring} ${badge.bg}`
-                                    : "text-slate-700 bg-gradient-to-r from-rose-50 to-amber-50 ring-rose-200/60",
+                                    : "text-slate-700 bg-gradient-to-r from-rose-50 to-amber-50 ring-cyan-50/60",
                                 ].join(" ")}
                                 title={tecno}
                               >
@@ -328,7 +328,7 @@ const Proyectos: React.FC = () => {
               transition={{ duration: 0.35 }}
               className="group h-full"
             >
-              <div className="h-full rounded-[24px] p-[1px] bg-gradient-to-br from-cyan-300/14 via-fuchsia-500/8 to-amber-300/8 shadow-[0_14px_45px_-28px_rgba(0,0,0,0.65)]">
+              <div className="h-full rounded-[24px] p-[1px] bg-gradient-to-br from-cyan-300/14 via-blue-300/8 to-amber-300/8 shadow-[0_14px_45px_-28px_rgba(0,0,0,0.65)]">
                 <div className="rounded-[24px] border border-white/10 bg-[#120b1f]/80 backdrop-blur-xl overflow-hidden h-full flex flex-col">
                   <div
                     onClick={() => toggleImage(key)}
@@ -399,7 +399,7 @@ const Proyectos: React.FC = () => {
                                 "inline-flex items-center gap-1.5 rounded-full px-2 py-[3px] text-[9px] sm:text-[10px] font-medium ring-1 whitespace-nowrap",
                                 badge
                                   ? `${badge.ring} ${badge.bg}`
-                                  : "text-slate-700 bg-gradient-to-r from-rose-50 to-amber-50 ring-rose-200/60",
+                                  : "text-slate-700 bg-gradient-to-r from-rose-50 to-amber-50 ring-cyan-50/60",
                               ].join(" ")}
                               title={tecno}
                             >

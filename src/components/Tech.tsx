@@ -419,7 +419,7 @@ const Tecnologias: React.FC = () => {
   }> = ({ icon, title, description, items, tall = false }) => (
     <div
       className={[
-        "rounded-[28px] p-[1px] bg-gradient-to-br from-cyan-300/16 via-fuchsia-500/8 to-amber-300/8 shadow-[0_16px_55px_-30px_rgba(0,0,0,0.65)]",
+        "rounded-[28px] p-[1px] bg-gradient-to-br from-cyan-300/16 via-blue-300/8 to-amber-300/8 shadow-[0_16px_55px_-30px_rgba(0,0,0,0.65)]",
         tall ? "h-full" : "",
       ].join(" ")}
     >
@@ -472,7 +472,7 @@ const Tecnologias: React.FC = () => {
         </div>
 
         {/* Radar visual */}
-        <div className="relative min-h-[300px] sm:min-h-[420px] rounded-[32px] p-[1px] bg-gradient-to-br from-cyan-300/18 via-fuchsia-500/8 to-amber-300/8 shadow-[0_16px_55px_-30px_rgba(0,0,0,0.65)]">
+        <div className="relative min-h-[300px] sm:min-h-[420px] rounded-[32px] p-[1px] bg-gradient-to-br from-cyan-300/18 via-blue-300/8 to-amber-300/8 shadow-[0_16px_55px_-30px_rgba(0,0,0,0.65)]">
           <div className="relative h-full min-h-[300px] sm:min-h-[420px] rounded-[32px] border border-white/10 bg-[#120b1f]/80 backdrop-blur-xl overflow-hidden">
             <div className="absolute left-1/2 top-1/2 h-[210px] w-[210px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(244,63,94,0.18),rgba(244,63,94,0.08),transparent_70%)] sm:h-[280px] sm:w-[280px]" />
             <div className="absolute left-1/2 top-1/2 h-[255px] w-[255px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/5 sm:h-[340px] sm:w-[340px]" />

@@ -56,10 +56,10 @@ const Certificados: React.FC = () => {
               <div
                 className={[
                   "rounded-[22px] sm:rounded-[24px] p-[1px]",
-                  "bg-gradient-to-br from-cyan-300/18 via-fuchsia-500/8 to-amber-300/8",
+                  "bg-gradient-to-br from-cyan-300/18 via-blue-300/8 to-amber-300/8",
                   "shadow-[0_16px_55px_-32px_rgba(0,0,0,0.65)]",
                   isOnline
-                    ? "transition-all duration-300 group-hover:from-cyan-300/28 group-hover:via-fuchsia-500/16 group-hover:to-amber-300/12 group-hover:-translate-y-[2px]"
+                    ? "transition-all duration-300 group-hover:from-cyan-300/28 group-hover:via-blue-300/16 group-hover:to-amber-300/12 group-hover:-translate-y-[2px]"
                     : "",
                 ].join(" ")}
               >
