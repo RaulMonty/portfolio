@@ -13,7 +13,7 @@ const Footer: React.FC = () => (
     {/* Glow sutil */}
     <div className="pointer-events-none absolute inset-0">
       <div className="absolute left-[12%] top-0 h-24 w-24 rounded-full bg-fuchsia-600/10 blur-[80px]" />
-      <div className="absolute right-[10%] bottom-0 h-24 w-24 rounded-full bg-rose-500/10 blur-[80px]" />
+      <div className="absolute right-[10%] bottom-0 h-24 w-24 rounded-full bg-cyan-300/10 blur-[80px]" />
     </div>
 
     <div className="relative max-w-[1440px] mx-auto px-4 md:px-6 py-10">
@@ -35,7 +35,7 @@ const Footer: React.FC = () => (
             © {new Date().getFullYear()}{" "}
             <span className="text-white/80 font-medium">{PROFILE.name}</span>.{" "}
             Desarrollado con{" "}
-            <Heart className="inline-block w-4 h-4 text-rose-500 mb-[2px]" />{" "}
+            <Heart className="inline-block w-4 h-4 text-cyan-300 mb-[2px]" />{" "}
             usando React, Vite y Tailwind CSS.
           </p>
         </div>
@@ -48,7 +48,7 @@ const Footer: React.FC = () => (
               href={PROFILE.socials.github}
               target="_blank"
               rel="noreferrer"
-              className="rounded-xl border border-white/10 bg-white/5 p-3 text-white/65 transition hover:bg-rose-500/12 hover:border-rose-500/30 hover:text-rose-300"
+              className="rounded-xl border border-white/10 bg-white/5 p-3 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
             >
               <Github className="w-4 h-4" />
             </a>
@@ -58,7 +58,7 @@ const Footer: React.FC = () => (
               href={PROFILE.socials.linkedin}
               target="_blank"
               rel="noreferrer"
-              className="rounded-xl border border-white/10 bg-white/5 p-3 text-white/65 transition hover:bg-rose-500/12 hover:border-rose-500/30 hover:text-rose-300"
+              className="rounded-xl border border-white/10 bg-white/5 p-3 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
             >
               <Linkedin className="w-4 h-4" />
             </a>
@@ -66,7 +66,7 @@ const Footer: React.FC = () => (
             <a
               aria-label="Email"
               href={PROFILE.socials.email}
-              className="rounded-xl border border-white/10 bg-white/5 p-3 text-white/65 transition hover:bg-rose-500/12 hover:border-rose-500/30 hover:text-rose-300"
+              className="rounded-xl border border-white/10 bg-white/5 p-3 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
             >
               <Mail className="w-4 h-4" />
             </a>

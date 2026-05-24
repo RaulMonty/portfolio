@@ -66,7 +66,7 @@ const Nav: React.FC = () => {
         <span className="relative z-10">{children}</span>
 
         <span
-          className={`absolute left-2 right-2 -bottom-0.5 h-[2px] rounded-full bg-gradient-to-r from-rose-500 via-pink-500 to-fuchsia-500 transition-opacity ${esActivo ? "opacity-100" : "opacity-0 group-hover:opacity-100"
+          className={`absolute left-2 right-2 -bottom-0.5 h-[2px] rounded-full bg-gradient-to-r from-cyan-300 via-pink-500 to-fuchsia-500 transition-opacity ${esActivo ? "opacity-100" : "opacity-0 group-hover:opacity-100"
             }`}
         />
       </a>
@@ -88,7 +88,7 @@ const Nav: React.FC = () => {
         href={href}
         onClick={() => setAbierto(false)}
         className={`group flex items-center justify-between rounded-2xl px-4 py-3.5 transition ${esActivo
-          ? "bg-gradient-to-r from-rose-500/14 to-fuchsia-500/10 border border-rose-500/20 text-white"
+          ? "bg-gradient-to-r from-cyan-300/14 to-fuchsia-500/10 border border-cyan-300/20 text-white"
           : "border border-transparent text-white/78 hover:bg-white/[0.04] hover:text-rose-300"
           }`}
       >
@@ -119,7 +119,7 @@ const Nav: React.FC = () => {
           <span
             className="
               absolute left-1/2 top-1/2 -z-10 h-10 w-10 -translate-x-1/2 -translate-y-1/2
-              rounded-full bg-rose-500/20 blur-xl
+              rounded-full bg-cyan-300/20 blur-xl
               opacity-0 transition duration-300
               group-hover:opacity-100"
           />
@@ -151,7 +151,7 @@ const Nav: React.FC = () => {
               hidden min-[1126px]:inline-flex items-center gap-2
               rounded-2xl px-4 py-2.5
               text-sm font-semibold text-white
-              bg-gradient-to-r from-rose-500 to-fuchsia-600
+              bg-gradient-to-r from-cyan-300 to-fuchsia-600
               shadow-[0_15px_40px_-12px_rgba(244,63,94,.45)]
               transition hover:brightness-110
             "
@@ -170,7 +170,7 @@ const Nav: React.FC = () => {
               text-sm font-semibold text-white/90
               border border-white/10 bg-white/5
               backdrop-blur-xl
-              transition hover:bg-rose-500/12 hover:border-rose-500/30 hover:text-rose-200
+              transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-200
             "
           >
             <FileDown className="w-4 h-4" />
@@ -183,7 +183,7 @@ const Nav: React.FC = () => {
             href={PERFIL.socials.github}
             target="_blank"
             rel="noreferrer"
-            className="hidden min-[1126px]:inline-flex rounded-xl border border-white/10 bg-white/5 p-2.5 text-white/65 transition hover:bg-rose-500/12 hover:border-rose-500/30 hover:text-rose-300"
+            className="hidden min-[1126px]:inline-flex rounded-xl border border-white/10 bg-white/5 p-2.5 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
           >
             <Github className="w-4 h-4" />
           </a>
@@ -193,7 +193,7 @@ const Nav: React.FC = () => {
             href={PERFIL.socials.linkedin}
             target="_blank"
             rel="noreferrer"
-            className="hidden min-[1126px]:inline-flex rounded-xl border border-white/10 bg-white/5 p-2.5 text-white/65 transition hover:bg-rose-500/12 hover:border-rose-500/30 hover:text-rose-300"
+            className="hidden min-[1126px]:inline-flex rounded-xl border border-white/10 bg-white/5 p-2.5 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
           >
             <Linkedin className="w-4 h-4" />
           </a>
@@ -201,7 +201,7 @@ const Nav: React.FC = () => {
           <a
             aria-label="Email"
             href={PERFIL.socials.email}
-            className="hidden min-[1126px]:inline-flex rounded-xl border border-white/10 bg-white/5 p-2.5 text-white/65 transition hover:bg-rose-500/12 hover:border-rose-500/30 hover:text-rose-300"
+            className="hidden min-[1126px]:inline-flex rounded-xl border border-white/10 bg-white/5 p-2.5 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
           >
             <Mail className="w-4 h-4" />
           </a>
@@ -209,7 +209,7 @@ const Nav: React.FC = () => {
           {/* Hamburguesa solo móvil/tablet */}
           <button
             aria-label="Abrir menú"
-            className="inline-flex min-[1126px]:hidden rounded-xl border border-white/10 bg-white/5 p-2.5 text-white/85 transition hover:bg-rose-500/12 hover:border-rose-500/30 hover:text-rose-300"
+            className="inline-flex min-[1126px]:hidden rounded-xl border border-white/10 bg-white/5 p-2.5 text-white/85 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
             onClick={() => setAbierto(true)}
           >
             <Menu className="w-5 h-5" />
@@ -226,7 +226,7 @@ const Nav: React.FC = () => {
 
           <div
             className="fixed top-[76px] inset-x-0 z-50 mx-4 rounded-[28px] p-[1px]
-                       bg-gradient-to-br from-rose-500/30 via-fuchsia-500/15 to-amber-300/15
+                       bg-gradient-to-br from-cyan-300/30 via-fuchsia-500/15 to-amber-300/15
                        shadow-[0_24px_70px_-20px_rgba(0,0,0,.6)]"
             role="dialog"
             aria-modal="true"
@@ -244,7 +244,7 @@ const Nav: React.FC = () => {
 
                 <button
                   aria-label="Cerrar menú"
-                  className="rounded-xl border border-white/10 bg-white/5 p-2 text-white/80 transition hover:bg-rose-500/12 hover:border-rose-500/30 hover:text-rose-300"
+                  className="rounded-xl border border-white/10 bg-white/5 p-2 text-white/80 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
                   onClick={() => setAbierto(false)}
                 >
                   <X className="w-5 h-5" />
@@ -271,7 +271,7 @@ const Nav: React.FC = () => {
                     className="
                       inline-flex h-11 items-center justify-center gap-2 rounded-2xl px-4
                       text-sm font-semibold text-white
-                      bg-gradient-to-r from-rose-500 to-fuchsia-600
+                      bg-gradient-to-r from-cyan-300 to-fuchsia-600
                       shadow-[0_15px_40px_-12px_rgba(244,63,94,.45)]
                     "
                   >
@@ -307,7 +307,7 @@ const Nav: React.FC = () => {
                       href={PERFIL.socials.github}
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white/80 transition hover:bg-rose-500/12 hover:border-rose-500/30 hover:text-rose-300"
+                      className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white/80 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
                     >
                       <Github className="w-4 h-4" />
                     </a>
@@ -317,7 +317,7 @@ const Nav: React.FC = () => {
                       href={PERFIL.socials.linkedin}
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white/80 transition hover:bg-rose-500/12 hover:border-rose-500/30 hover:text-rose-300"
+                      className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white/80 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
                     >
                       <Linkedin className="w-4 h-4" />
                     </a>
@@ -325,7 +325,7 @@ const Nav: React.FC = () => {
                     <a
                       aria-label="Email"
                       href={PERFIL.socials.email}
-                      className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white/80 transition hover:bg-rose-500/12 hover:border-rose-500/30 hover:text-rose-300"
+                      className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white/80 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
                     >
                       <Mail className="w-4 h-4" />
                     </a>

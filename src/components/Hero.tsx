@@ -85,7 +85,7 @@ const Hero: React.FC = () => {
       {/* Fondo */}
       <div className="absolute inset-0">
         <div className="absolute left-[-120px] top-[-120px] h-[320px] w-[320px] rounded-full bg-fuchsia-600/20 blur-[120px]" />
-        <div className="absolute right-[-100px] top-[120px] h-[300px] w-[300px] rounded-full bg-rose-500/20 blur-[120px]" />
+        <div className="absolute right-[-100px] top-[120px] h-[300px] w-[300px] rounded-full bg-cyan-300/20 blur-[120px]" />
         <div className="absolute bottom-[-140px] left-[20%] h-[320px] w-[320px] rounded-full bg-amber-400/10 blur-[140px]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.06),transparent_35%)]" />
       </div>
@@ -96,7 +96,7 @@ const Hero: React.FC = () => {
             {/* IZQUIERDA */}
             <div className="max-w-2xl text-center lg:text-left">
               <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[10px] sm:text-xs font-medium uppercase tracking-[0.25em] text-white/80 backdrop-blur">
-                <span className="h-2 w-2 rounded-full bg-rose-500" />
+                <span className="h-2 w-2 rounded-full bg-cyan-300" />
                 .NET Developer
               </div>
 
@@ -117,7 +117,7 @@ const Hero: React.FC = () => {
               <div className="mt-8 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4 justify-center lg:justify-start">
                 <a
                   href="#proyectos"
-                  className="inline-flex items-center justify-center gap-2 rounded-2xl px-6 py-3.5 font-semibold text-white bg-gradient-to-r from-rose-500 to-pink-600 shadow-[0_15px_40px_-12px_rgba(244,63,94,.55)] transition hover:scale-[1.02] hover:brightness-110"
+                  className="inline-flex items-center justify-center gap-2 rounded-2xl px-6 py-3.5 font-semibold text-white bg-gradient-to-r from-cyan-300 to-pink-600 shadow-[0_15px_40px_-12px_rgba(244,63,94,.55)] transition hover:scale-[1.02] hover:brightness-110"
                 >
                   Ver proyectos
                   <ArrowRight className="h-4 w-4" />
@@ -168,7 +168,7 @@ const Hero: React.FC = () => {
             {/* DERECHA */}
             <div className="relative flex justify-center lg:justify-end">
               <div className="relative w-full max-w-[620px] min-h-[360px] sm:min-h-[420px] lg:min-h-[520px] flex items-center justify-center">
-                <div className="absolute inset-0 rounded-[40px] bg-gradient-to-br from-rose-500/20 via-fuchsia-500/10 to-amber-300/20 blur-3xl scale-95" />
+                <div className="absolute inset-0 rounded-[40px] bg-gradient-to-br from-cyan-300/20 via-fuchsia-500/10 to-amber-300/20 blur-3xl scale-95" />
 
                 {/* anillo orbital móvil + desktop */}
                 <div className="absolute inset-[10%] sm:inset-[6%] rounded-full border border-white/[0.04]" />
@@ -200,7 +200,7 @@ const Hero: React.FC = () => {
                 )}
 
                 {/* Imagen */}
-                <div className="relative z-10 inline-block rounded-[24px] p-[1px] bg-gradient-to-br from-rose-500/70 via-fuchsia-500/45 to-violet-500/55 shadow-[0_24px_60px_-28px_rgba(0,0,0,0.7)]">
+                <div className="relative z-10 inline-block rounded-[24px] p-[1px] bg-gradient-to-br from-cyan-300/70 via-fuchsia-500/45 to-violet-500/55 shadow-[0_24px_60px_-28px_rgba(0,0,0,0.7)]">
                   <div className="rounded-[24px] bg-[#12071f]/80 p-2 backdrop-blur-xl">
                     <div className="overflow-hidden rounded-[18px] bg-gradient-to-br from-[#12071f] via-[#0b0818] to-[#14070d] p-2">
                       <img

@@ -23,7 +23,7 @@ const Certificados: React.FC = () => {
 
         <h2 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] tracking-tight">
           <span className="text-white/80">Aprendizaje validado,</span>
-          <span className="block bg-gradient-to-r from-rose-500 via-pink-500 to-fuchsia-600 bg-clip-text text-transparent">
+          <span className="block bg-gradient-to-r from-cyan-300 via-pink-500 to-fuchsia-600 bg-clip-text text-transparent">
             crecimiento continuo
           </span>
         </h2>
@@ -56,10 +56,10 @@ const Certificados: React.FC = () => {
               <div
                 className={[
                   "rounded-[22px] sm:rounded-[24px] p-[1px]",
-                  "bg-gradient-to-br from-rose-500/18 via-fuchsia-500/8 to-amber-300/8",
+                  "bg-gradient-to-br from-cyan-300/18 via-fuchsia-500/8 to-amber-300/8",
                   "shadow-[0_16px_55px_-32px_rgba(0,0,0,0.65)]",
                   isOnline
-                    ? "transition-all duration-300 group-hover:from-rose-500/28 group-hover:via-fuchsia-500/16 group-hover:to-amber-300/12 group-hover:-translate-y-[2px]"
+                    ? "transition-all duration-300 group-hover:from-cyan-300/28 group-hover:via-fuchsia-500/16 group-hover:to-amber-300/12 group-hover:-translate-y-[2px]"
                     : "",
                 ].join(" ")}
               >

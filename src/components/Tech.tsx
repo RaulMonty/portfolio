@@ -403,7 +403,7 @@ const Tecnologias: React.FC = () => {
     children: React.ReactNode;
   }> = ({ icon, children }) => (
     <div className="flex items-center gap-3">
-      <div className="grid h-11 w-11 place-items-center rounded-2xl border border-rose-500/20 bg-rose-500/10 text-rose-400">
+      <div className="grid h-11 w-11 place-items-center rounded-2xl border border-cyan-300/20 bg-cyan-300/10 text-rose-400">
         {icon}
       </div>
       <h3 className="text-lg sm:text-xl font-bold text-white">{children}</h3>
@@ -419,7 +419,7 @@ const Tecnologias: React.FC = () => {
   }> = ({ icon, title, description, items, tall = false }) => (
     <div
       className={[
-        "rounded-[28px] p-[1px] bg-gradient-to-br from-rose-500/16 via-fuchsia-500/8 to-amber-300/8 shadow-[0_16px_55px_-30px_rgba(0,0,0,0.65)]",
+        "rounded-[28px] p-[1px] bg-gradient-to-br from-cyan-300/16 via-fuchsia-500/8 to-amber-300/8 shadow-[0_16px_55px_-30px_rgba(0,0,0,0.65)]",
         tall ? "h-full" : "",
       ].join(" ")}
     >
@@ -462,7 +462,7 @@ const Tecnologias: React.FC = () => {
 
           <h2 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] tracking-tight">
             <span className="text-white/82">Stack para crear</span>
-            <span className="block bg-gradient-to-r from-rose-500 via-pink-500 to-fuchsia-600 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-cyan-300 via-pink-500 to-fuchsia-600 bg-clip-text text-transparent">
               aplicaciones web
             </span>
           </h2>
@@ -472,7 +472,7 @@ const Tecnologias: React.FC = () => {
         </div>
 
         {/* Radar visual */}
-        <div className="relative min-h-[300px] sm:min-h-[420px] rounded-[32px] p-[1px] bg-gradient-to-br from-rose-500/18 via-fuchsia-500/8 to-amber-300/8 shadow-[0_16px_55px_-30px_rgba(0,0,0,0.65)]">
+        <div className="relative min-h-[300px] sm:min-h-[420px] rounded-[32px] p-[1px] bg-gradient-to-br from-cyan-300/18 via-fuchsia-500/8 to-amber-300/8 shadow-[0_16px_55px_-30px_rgba(0,0,0,0.65)]">
           <div className="relative h-full min-h-[300px] sm:min-h-[420px] rounded-[32px] border border-white/10 bg-[#120b1f]/80 backdrop-blur-xl overflow-hidden">
             <div className="absolute left-1/2 top-1/2 h-[210px] w-[210px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(244,63,94,0.18),rgba(244,63,94,0.08),transparent_70%)] sm:h-[280px] sm:w-[280px]" />
             <div className="absolute left-1/2 top-1/2 h-[255px] w-[255px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/5 sm:h-[340px] sm:w-[340px]" />
@@ -483,9 +483,9 @@ const Tecnologias: React.FC = () => {
 
             {/* nodo central */}
             <div className="absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2">
-              <div className="rounded-xl border border-rose-500/20 bg-[#170d22]/95 px-2 py-1.5 shadow-[0_18px_45px_-18px_rgba(244,63,94,.45)] sm:px-2.5 sm:py-2">
+              <div className="rounded-xl border border-cyan-300/20 bg-[#170d22]/95 px-2 py-1.5 shadow-[0_18px_45px_-18px_rgba(244,63,94,.45)] sm:px-2.5 sm:py-2">
                 <div className="flex items-center gap-1.5 sm:gap-2">
-                  <div className="grid h-6 w-6 place-items-center rounded-lg border border-rose-500/20 bg-rose-500/12 text-rose-400 sm:h-7 sm:w-7">
+                  <div className="grid h-6 w-6 place-items-center rounded-lg border border-cyan-300/20 bg-cyan-300/12 text-rose-400 sm:h-7 sm:w-7">
                     <Cpu className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
                   </div>
 

@@ -32,7 +32,7 @@ const Experiencia: React.FC = () => {
 
         <h2 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] tracking-tight">
           <span className="text-white/80">Experiencia</span>
-          <span className="block bg-gradient-to-r from-rose-500 via-pink-500 to-fuchsia-600 bg-clip-text text-transparent">
+          <span className="block bg-gradient-to-r from-cyan-300 via-pink-500 to-fuchsia-600 bg-clip-text text-transparent">
             en desarrollo web
           </span>
         </h2>
@@ -57,7 +57,7 @@ const Experiencia: React.FC = () => {
               className="relative h-full"
             >
               {/* Card */}
-              <div className="h-full rounded-[24px] p-[1px] bg-gradient-to-br from-rose-500/18 via-fuchsia-500/8 to-amber-300/8 shadow-[0_16px_55px_-32px_rgba(0,0,0,0.65)]">
+              <div className="h-full rounded-[24px] p-[1px] bg-gradient-to-br from-cyan-300/18 via-fuchsia-500/8 to-amber-300/8 shadow-[0_16px_55px_-32px_rgba(0,0,0,0.65)]">
                 <div className="h-full rounded-[24px] border border-white/10 bg-[#120b1f]/80 backdrop-blur-xl px-5 py-5 sm:px-6 sm:py-6 transition-all duration-300 hover:-translate-y-[2px] hover:bg-[#171126]/85">
                   <div className="flex h-full flex-col gap-5">
                     {/* fila superior */}
@@ -74,7 +74,7 @@ const Experiencia: React.FC = () => {
                         {experiencia.role}
                       </h3>
 
-                      <p className="mt-2 flex items-center gap-2 text-rose-500 font-semibold uppercase tracking-[0.08em] text-sm sm:text-base">
+                      <p className="mt-2 flex items-center gap-2 text-cyan-300 font-semibold uppercase tracking-[0.08em] text-sm sm:text-base">
                         <Building2 className="w-4 h-4 text-rose-400" />
                         {experiencia.company}
                       </p>
@@ -116,7 +116,7 @@ const Experiencia: React.FC = () => {
           inline-flex items-center justify-center gap-2
           rounded-2xl px-5 py-3
           font-semibold text-white
-          bg-gradient-to-r from-rose-500 to-fuchsia-600
+          bg-gradient-to-r from-cyan-300 to-fuchsia-600
           shadow-[0_15px_40px_-12px_rgba(244,63,94,.45)]
           transition hover:brightness-110 hover:-translate-y-[1px]
         "

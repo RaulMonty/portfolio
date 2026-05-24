@@ -43,7 +43,7 @@ const Proyectos: React.FC = () => {
         target="_blank"
         rel="noreferrer"
         className={[
-          "inline-flex items-center justify-center gap-2 rounded-2xl font-semibold text-white bg-gradient-to-r from-rose-500 to-fuchsia-600 shadow-[0_15px_40px_-12px_rgba(244,63,94,.45)] transition hover:brightness-110",
+          "inline-flex items-center justify-center gap-2 rounded-2xl font-semibold text-white bg-gradient-to-r from-cyan-300 to-fuchsia-600 shadow-[0_15px_40px_-12px_rgba(244,63,94,.45)] transition hover:brightness-110",
           compact ? "px-3 py-2 text-xs" : "px-4 py-2.5 text-sm",
         ].join(" ")}
       >
@@ -66,7 +66,7 @@ const Proyectos: React.FC = () => {
 
         <h2 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] tracking-tight">
           <span className="text-white/80">Proyectos llevados</span>
-          <span className="block bg-gradient-to-r from-rose-500 via-pink-500 to-fuchsia-600 bg-clip-text text-transparent italic">
+          <span className="block bg-gradient-to-r from-cyan-300 via-pink-500 to-fuchsia-600 bg-clip-text text-transparent italic">
             a la práctica
           </span>
         </h2>
@@ -94,7 +94,7 @@ const Proyectos: React.FC = () => {
                 transition={{ duration: 0.4 }}
                 className="group min-w-[82%] snap-start"
               >
-                <div className="h-full rounded-[26px] p-[1px] bg-gradient-to-br from-rose-500/20 via-fuchsia-500/10 to-amber-300/10 shadow-[0_18px_60px_-30px_rgba(0,0,0,0.65)]">
+                <div className="h-full rounded-[26px] p-[1px] bg-gradient-to-br from-cyan-300/20 via-fuchsia-500/10 to-amber-300/10 shadow-[0_18px_60px_-30px_rgba(0,0,0,0.65)]">
                   <div className="rounded-[26px] border border-white/10 bg-[#120b1f]/80 backdrop-blur-xl overflow-hidden h-full">
                     <div
                       onClick={() => toggleImage(key)}
@@ -122,7 +122,7 @@ const Proyectos: React.FC = () => {
 
                       {proyecto.award && (
                         <div className="absolute left-3 top-3">
-                          <span className="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[10px] font-semibold text-white bg-gradient-to-r from-rose-500 to-amber-400">
+                          <span className="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[10px] font-semibold text-white bg-gradient-to-r from-cyan-300 to-amber-400">
                             <Trophy className="w-3.5 h-3.5" />
                             {proyecto.award}
                           </span>
@@ -221,7 +221,7 @@ const Proyectos: React.FC = () => {
                 transition={{ duration: 0.4 }}
                 className="group h-full"
               >
-                <div className="h-full rounded-[28px] p-[1px] bg-gradient-to-br from-rose-500/20 via-fuchsia-500/10 to-amber-300/10 shadow-[0_18px_60px_-30px_rgba(0,0,0,0.65)]">
+                <div className="h-full rounded-[28px] p-[1px] bg-gradient-to-br from-cyan-300/20 via-fuchsia-500/10 to-amber-300/10 shadow-[0_18px_60px_-30px_rgba(0,0,0,0.65)]">
                   <div className="rounded-[28px] border border-white/10 bg-[#120b1f]/80 backdrop-blur-xl overflow-hidden h-full">
                     <div className="relative aspect-[16/9] overflow-hidden bg-[#0f0a1a]">
                       <img
@@ -242,7 +242,7 @@ const Proyectos: React.FC = () => {
 
                       {proyecto.award && (
                         <div className="absolute left-4 top-4">
-                          <span className="inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-[11px] sm:text-xs font-semibold text-white bg-gradient-to-r from-rose-500 to-amber-400">
+                          <span className="inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-[11px] sm:text-xs font-semibold text-white bg-gradient-to-r from-cyan-300 to-amber-400">
                             <Trophy className="w-4 h-4" />
                             {proyecto.award}
                           </span>
@@ -328,7 +328,7 @@ const Proyectos: React.FC = () => {
               transition={{ duration: 0.35 }}
               className="group h-full"
             >
-              <div className="h-full rounded-[24px] p-[1px] bg-gradient-to-br from-rose-500/14 via-fuchsia-500/8 to-amber-300/8 shadow-[0_14px_45px_-28px_rgba(0,0,0,0.65)]">
+              <div className="h-full rounded-[24px] p-[1px] bg-gradient-to-br from-cyan-300/14 via-fuchsia-500/8 to-amber-300/8 shadow-[0_14px_45px_-28px_rgba(0,0,0,0.65)]">
                 <div className="rounded-[24px] border border-white/10 bg-[#120b1f]/80 backdrop-blur-xl overflow-hidden h-full flex flex-col">
                   <div
                     onClick={() => toggleImage(key)}

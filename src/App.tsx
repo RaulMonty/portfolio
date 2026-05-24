@@ -137,7 +137,7 @@ export default function App() {
 
         <div className="relative bg-[linear-gradient(180deg,#0b0415_0%,#0d0418_35%,#10061b_100%)]">
           <div className="pointer-events-none absolute inset-0 overflow-hidden">
-            <div className="absolute left-[-100px] top-[120px] h-[240px] w-[240px] rounded-full bg-rose-500/10 blur-[120px]" />
+            <div className="absolute left-[-100px] top-[120px] h-[240px] w-[240px] rounded-full bg-cyan-300/10 blur-[120px]" />
             <div className="absolute right-[-80px] top-[220px] h-[260px] w-[260px] rounded-full bg-fuchsia-500/10 blur-[130px]" />
           </div>
 
@@ -156,7 +156,7 @@ export default function App() {
 
               <h2 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] tracking-tight">
                 <span className="text-white/70">De ideas a</span>
-                <span className="block bg-gradient-to-r from-rose-500 via-pink-500 to-fuchsia-600 bg-clip-text text-transparent">
+                <span className="block bg-gradient-to-r from-cyan-300 via-pink-500 to-fuchsia-600 bg-clip-text text-transparent">
                   aplicaciones web funcionales
                 </span>
               </h2>
@@ -167,10 +167,10 @@ export default function App() {
             </div>
 
             <div className="mt-10 md:mt-12 grid gap-8 xl:grid-cols-[1.25fr_0.75fr] xl:items-stretch">
-              <div className="h-full rounded-[30px] p-[1px] bg-gradient-to-br from-rose-500/25 via-fuchsia-500/10 to-amber-300/15 shadow-[0_20px_80px_-35px_rgba(0,0,0,0.55)]">
+              <div className="h-full rounded-[30px] p-[1px] bg-gradient-to-br from-cyan-300/25 via-fuchsia-500/10 to-amber-300/15 shadow-[0_20px_80px_-35px_rgba(0,0,0,0.55)]">
                 <div className="h-full rounded-[30px] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.03))] backdrop-blur-xl p-6 sm:p-8 md:p-10 flex flex-col">
                   <div className="max-w-3xl">
-                    <span className="inline-flex items-center rounded-full border border-rose-500/20 bg-rose-500/10 px-4 py-1.5 text-[11px] font-medium uppercase tracking-[0.25em] text-rose-300">
+                    <span className="inline-flex items-center rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-1.5 text-[11px] font-medium uppercase tracking-[0.25em] text-rose-300">
                       Especialización
                     </span>
 
@@ -254,7 +254,7 @@ export default function App() {
                     ))}
                   </div>
 
-                  <div className="mt-6 rounded-2xl border border-white/8 bg-gradient-to-r from-rose-500/10 to-fuchsia-500/5 p-5">
+                  <div className="mt-6 rounded-2xl border border-white/8 bg-gradient-to-r from-cyan-300/10 to-fuchsia-500/5 p-5">
                     <p className="text-sm sm:text-[15px] leading-7 text-white/70">
                       <span className="mr-2 font-semibold text-rose-400">{"/>"}</span>
                       Me interesa formar parte de proyectos donde pueda seguir creciendo,
