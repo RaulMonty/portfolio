@@ -176,7 +176,7 @@ export default function App() {
 
                     <h3 className="mt-5 text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-white">
                        Aplicaciones web 
-                      <span className="block bg-gradient-to-r from-cyan-200 via-pink-400 to-fuchsia-400 bg-clip-text text-transparent">
+                      <span className="block bg-gradient-to-r from-cyan-200 via-sky-200 to-fuchsia-400 bg-clip-text text-transparent">
                       con backend sólido y UX cuidada
                       </span>
                     </h3>

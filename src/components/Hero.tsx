@@ -102,7 +102,7 @@ const Hero: React.FC = () => {
 
               <h1 className="mt-5 text-[42px] leading-[0.95] sm:text-6xl lg:text-7xl font-black tracking-tight">
                 Hola, soy
-                <span className="block bg-gradient-to-r from-cyan-200 via-pink-400 to-amber-300 bg-clip-text text-transparent">
+                <span className="block bg-gradient-to-r from-cyan-200 via-sky-200 to-amber-300 bg-clip-text text-transparent">
                   Raúl Montiel
                 </span>
               </h1>
