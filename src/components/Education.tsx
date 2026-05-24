@@ -49,7 +49,7 @@ const Educacion: React.FC = () => (
             className="relative md:pl-14"
           >
             {/* nodo */}
-            <div className="absolute left-[1px] top-8 z-10 hidden md:flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-br from-cyan-300 via-sky-300 to-blue-400 shadow-[0_0_24px_rgba(244,63,94,0.35)]">
+            <div className="absolute left-[1px] top-8 z-10 hidden md:flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-br from-cyan-300 via-sky-300 to-blue-400 shadow-[0_0_24px_rgba(0,250,250,0.35)]">
               <div className="h-3 w-3 rounded-full bg-[#0b0818]" />
             </div>
 

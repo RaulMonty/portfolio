@@ -152,7 +152,7 @@ const Nav: React.FC = () => {
               rounded-2xl px-4 py-2.5
               text-sm font-semibold text-white
               bg-gradient-to-r from-cyan-300 to-blue-400
-              shadow-[0_15px_40px_-12px_rgba(244,63,94,.45)]
+              shadow-[0_15px_40px_-12px_rgba(0,250,250,.45)]
               transition hover:brightness-110
             "
           >
@@ -272,7 +272,7 @@ const Nav: React.FC = () => {
                       inline-flex h-11 items-center justify-center gap-2 rounded-2xl px-4
                       text-sm font-semibold text-white
                       bg-gradient-to-r from-cyan-300 to-blue-400
-                      shadow-[0_15px_40px_-12px_rgba(244,63,94,.45)]
+                      shadow-[0_15px_40px_-12px_rgba(0,250,250,.45)]
                     "
                   >
                     <Mail className="w-4 h-4" />

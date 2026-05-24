@@ -117,7 +117,7 @@ const Hero: React.FC = () => {
               <div className="mt-8 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4 justify-center lg:justify-start">
                 <a
                   href="#proyectos"
-                  className="inline-flex items-center justify-center gap-2 rounded-2xl px-6 py-3.5 font-semibold text-white bg-gradient-to-r from-cyan-300 to-sky-400 shadow-[0_15px_40px_-12px_rgba(244,63,94,.55)] transition hover:scale-[1.02] hover:brightness-110"
+                  className="inline-flex items-center justify-center gap-2 rounded-2xl px-6 py-3.5 font-semibold text-white bg-gradient-to-r from-cyan-300 to-sky-400 shadow-[0_15px_40px_-12px_rgba(0,250,250,.55)] transition hover:scale-[1.02] hover:brightness-110"
                 >
                   Ver proyectos
                   <ArrowRight className="h-4 w-4" />

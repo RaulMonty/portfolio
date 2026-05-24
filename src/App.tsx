@@ -125,7 +125,7 @@ export default function App() {
     <div
       className="
         min-h-screen text-white bg-[#070312]
-        bg-[radial-gradient(40%_30%_at_50%_0%,rgba(244,63,94,0.10),transparent),radial-gradient(30%_25%_at_85%_10%,rgba(168,85,247,0.08),transparent)]
+        bg-[radial-gradient(40%_30%_at_50%_0%,rgba(0,250,250,0.10),transparent),radial-gradient(30%_25%_at_85%_10%,rgba(168,85,247,0.08),transparent)]
       "
     >
       <Nav />

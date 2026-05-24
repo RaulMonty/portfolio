@@ -474,7 +474,7 @@ const Tecnologias: React.FC = () => {
         {/* Radar visual */}
         <div className="relative min-h-[300px] sm:min-h-[420px] rounded-[32px] p-[1px] bg-gradient-to-br from-cyan-300/18 via-blue-300/8 to-amber-300/8 shadow-[0_16px_55px_-30px_rgba(0,0,0,0.65)]">
           <div className="relative h-full min-h-[300px] sm:min-h-[420px] rounded-[32px] border border-white/10 bg-[#120b1f]/80 backdrop-blur-xl overflow-hidden">
-            <div className="absolute left-1/2 top-1/2 h-[210px] w-[210px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(244,63,94,0.18),rgba(244,63,94,0.08),transparent_70%)] sm:h-[280px] sm:w-[280px]" />
+            <div className="absolute left-1/2 top-1/2 h-[210px] w-[210px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(0,250,250,0.18),rgba(0,250,250,0.08),transparent_70%)] sm:h-[280px] sm:w-[280px]" />
             <div className="absolute left-1/2 top-1/2 h-[255px] w-[255px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/5 sm:h-[340px] sm:w-[340px]" />
             <div className="absolute left-1/2 top-1/2 h-[165px] w-[165px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/5 sm:h-[230px] sm:w-[230px]" />
 
@@ -483,7 +483,7 @@ const Tecnologias: React.FC = () => {
 
             {/* nodo central */}
             <div className="absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2">
-              <div className="rounded-xl border border-cyan-300/20 bg-[#170d22]/95 px-2 py-1.5 shadow-[0_18px_45px_-18px_rgba(244,63,94,.45)] sm:px-2.5 sm:py-2">
+              <div className="rounded-xl border border-cyan-300/20 bg-[#170d22]/95 px-2 py-1.5 shadow-[0_18px_45px_-18px_rgba(0,250,250,.45)] sm:px-2.5 sm:py-2">
                 <div className="flex items-center gap-1.5 sm:gap-2">
                   <div className="grid h-6 w-6 place-items-center rounded-lg border border-cyan-300/20 bg-cyan-300/12 text-cyan-200 sm:h-7 sm:w-7">
                     <Cpu className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
