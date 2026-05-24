@@ -84,7 +84,7 @@ const Hero: React.FC = () => {
     >
       {/* Fondo */}
       <div className="absolute inset-0">
-        <div className="absolute left-[-120px] top-[-120px] h-[320px] w-[320px] rounded-full bg-fuchsia-600/20 blur-[120px]" />
+        <div className="absolute left-[-120px] top-[-120px] h-[320px] w-[320px] rounded-full bg-blue-400/20 blur-[120px]" />
         <div className="absolute right-[-100px] top-[120px] h-[300px] w-[300px] rounded-full bg-cyan-300/20 blur-[120px]" />
         <div className="absolute bottom-[-140px] left-[20%] h-[320px] w-[320px] rounded-full bg-amber-400/10 blur-[140px]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.06),transparent_35%)]" />
@@ -117,7 +117,7 @@ const Hero: React.FC = () => {
               <div className="mt-8 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4 justify-center lg:justify-start">
                 <a
                   href="#proyectos"
-                  className="inline-flex items-center justify-center gap-2 rounded-2xl px-6 py-3.5 font-semibold text-white bg-gradient-to-r from-cyan-300 to-pink-600 shadow-[0_15px_40px_-12px_rgba(244,63,94,.55)] transition hover:scale-[1.02] hover:brightness-110"
+                  className="inline-flex items-center justify-center gap-2 rounded-2xl px-6 py-3.5 font-semibold text-white bg-gradient-to-r from-cyan-300 to-sky-400 shadow-[0_15px_40px_-12px_rgba(244,63,94,.55)] transition hover:scale-[1.02] hover:brightness-110"
                 >
                   Ver proyectos
                   <ArrowRight className="h-4 w-4" />

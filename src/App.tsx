@@ -156,7 +156,7 @@ export default function App() {
 
               <h2 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] tracking-tight">
                 <span className="text-white/70">De ideas a</span>
-                <span className="block bg-gradient-to-r from-cyan-300 via-pink-500 to-fuchsia-600 bg-clip-text text-transparent">
+                <span className="block bg-gradient-to-r from-cyan-300 via-pink-500 to-blue-400 bg-clip-text text-transparent">
                   aplicaciones web funcionales
                 </span>
               </h2>

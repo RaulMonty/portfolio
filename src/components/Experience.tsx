@@ -32,7 +32,7 @@ const Experiencia: React.FC = () => {
 
         <h2 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] tracking-tight">
           <span className="text-white/80">Experiencia</span>
-          <span className="block bg-gradient-to-r from-cyan-300 via-pink-500 to-fuchsia-600 bg-clip-text text-transparent">
+          <span className="block bg-gradient-to-r from-cyan-300 via-pink-500 to-blue-400 bg-clip-text text-transparent">
             en desarrollo web
           </span>
         </h2>
@@ -116,7 +116,7 @@ const Experiencia: React.FC = () => {
           inline-flex items-center justify-center gap-2
           rounded-2xl px-5 py-3
           font-semibold text-white
-          bg-gradient-to-r from-cyan-300 to-fuchsia-600
+          bg-gradient-to-r from-cyan-300 to-blue-400
           shadow-[0_15px_40px_-12px_rgba(244,63,94,.45)]
           transition hover:brightness-110 hover:-translate-y-[1px]
         "

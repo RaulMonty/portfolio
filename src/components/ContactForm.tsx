@@ -132,7 +132,7 @@ export default function ContactForm() {
             inline-flex items-center justify-center gap-2
             rounded-2xl px-5 py-3
             text-sm font-semibold text-white
-            bg-gradient-to-r from-cyan-300 to-fuchsia-600
+            bg-gradient-to-r from-cyan-300 to-blue-400
             shadow-[0_15px_40px_-12px_rgba(244,63,94,.45)]
             transition-all duration-300
             hover:brightness-110

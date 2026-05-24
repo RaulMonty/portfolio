@@ -12,7 +12,7 @@ const Footer: React.FC = () => (
   <footer className="relative border-t border-white/10 bg-[#070312] overflow-hidden">
     {/* Glow sutil */}
     <div className="pointer-events-none absolute inset-0">
-      <div className="absolute left-[12%] top-0 h-24 w-24 rounded-full bg-fuchsia-600/10 blur-[80px]" />
+      <div className="absolute left-[12%] top-0 h-24 w-24 rounded-full bg-blue-400/10 blur-[80px]" />
       <div className="absolute right-[10%] bottom-0 h-24 w-24 rounded-full bg-cyan-300/10 blur-[80px]" />
     </div>
 

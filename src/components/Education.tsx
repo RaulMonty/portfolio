@@ -25,7 +25,7 @@ const Educacion: React.FC = () => (
 
       <h2 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] tracking-tight">
         <span className="text-white/80">Base técnica,</span>
-        <span className="block bg-gradient-to-r from-cyan-300 via-pink-500 to-fuchsia-600 bg-clip-text text-transparent">
+        <span className="block bg-gradient-to-r from-cyan-300 via-pink-500 to-blue-400 bg-clip-text text-transparent">
           evolución constante
         </span>
       </h2>
@@ -49,7 +49,7 @@ const Educacion: React.FC = () => (
             className="relative md:pl-14"
           >
             {/* nodo */}
-            <div className="absolute left-[1px] top-8 z-10 hidden md:flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-br from-cyan-300 via-pink-500 to-fuchsia-600 shadow-[0_0_24px_rgba(244,63,94,0.35)]">
+            <div className="absolute left-[1px] top-8 z-10 hidden md:flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-br from-cyan-300 via-pink-500 to-blue-400 shadow-[0_0_24px_rgba(244,63,94,0.35)]">
               <div className="h-3 w-3 rounded-full bg-[#0b0818]" />
             </div>
 

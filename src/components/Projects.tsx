@@ -43,7 +43,7 @@ const Proyectos: React.FC = () => {
         target="_blank"
         rel="noreferrer"
         className={[
-          "inline-flex items-center justify-center gap-2 rounded-2xl font-semibold text-white bg-gradient-to-r from-cyan-300 to-fuchsia-600 shadow-[0_15px_40px_-12px_rgba(244,63,94,.45)] transition hover:brightness-110",
+          "inline-flex items-center justify-center gap-2 rounded-2xl font-semibold text-white bg-gradient-to-r from-cyan-300 to-blue-400 shadow-[0_15px_40px_-12px_rgba(244,63,94,.45)] transition hover:brightness-110",
           compact ? "px-3 py-2 text-xs" : "px-4 py-2.5 text-sm",
         ].join(" ")}
       >
@@ -66,7 +66,7 @@ const Proyectos: React.FC = () => {
 
         <h2 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] tracking-tight">
           <span className="text-white/80">Proyectos llevados</span>
-          <span className="block bg-gradient-to-r from-cyan-300 via-pink-500 to-fuchsia-600 bg-clip-text text-transparent italic">
+          <span className="block bg-gradient-to-r from-cyan-300 via-pink-500 to-blue-400 bg-clip-text text-transparent italic">
             a la práctica
           </span>
         </h2>
