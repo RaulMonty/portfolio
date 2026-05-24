@@ -60,13 +60,13 @@ const Nav: React.FC = () => {
     return (
       <a
         href={href}
-        className={`group relative px-3 py-2 rounded-xl text-sm font-medium transition-colors ${esActivo ? "text-white" : "text-white/62 hover:text-rose-300"
+        className={`group relative px-3 py-2 rounded-xl text-sm font-medium transition-colors ${esActivo ? "text-white" : "text-white/62 hover:text-cyan-100"
           }`}
       >
         <span className="relative z-10">{children}</span>
 
         <span
-          className={`absolute left-2 right-2 -bottom-0.5 h-[2px] rounded-full bg-gradient-to-r from-cyan-300 via-pink-500 to-fuchsia-500 transition-opacity ${esActivo ? "opacity-100" : "opacity-0 group-hover:opacity-100"
+          className={`absolute left-2 right-2 -bottom-0.5 h-[2px] rounded-full bg-gradient-to-r from-cyan-300 via-sky-300 to-fuchsia-500 transition-opacity ${esActivo ? "opacity-100" : "opacity-0 group-hover:opacity-100"
             }`}
         />
       </a>
@@ -89,14 +89,14 @@ const Nav: React.FC = () => {
         onClick={() => setAbierto(false)}
         className={`group flex items-center justify-between rounded-2xl px-4 py-3.5 transition ${esActivo
           ? "bg-gradient-to-r from-cyan-300/14 to-fuchsia-500/10 border border-cyan-300/20 text-white"
-          : "border border-transparent text-white/78 hover:bg-white/[0.04] hover:text-rose-300"
+          : "border border-transparent text-white/78 hover:bg-white/[0.04] hover:text-cyan-100"
           }`}
       >
         <span className="font-medium">{children}</span>
         <ChevronRight
           className={`w-4 h-4 transition ${esActivo
-            ? "text-rose-300"
-            : "text-white/30 group-hover:text-rose-300"
+            ? "text-cyan-100"
+            : "text-white/30 group-hover:text-cyan-100"
             }`}
         />
       </a>
@@ -183,7 +183,7 @@ const Nav: React.FC = () => {
             href={PERFIL.socials.github}
             target="_blank"
             rel="noreferrer"
-            className="hidden min-[1126px]:inline-flex rounded-xl border border-white/10 bg-white/5 p-2.5 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
+            className="hidden min-[1126px]:inline-flex rounded-xl border border-white/10 bg-white/5 p-2.5 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-cyan-100"
           >
             <Github className="w-4 h-4" />
           </a>
@@ -193,7 +193,7 @@ const Nav: React.FC = () => {
             href={PERFIL.socials.linkedin}
             target="_blank"
             rel="noreferrer"
-            className="hidden min-[1126px]:inline-flex rounded-xl border border-white/10 bg-white/5 p-2.5 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
+            className="hidden min-[1126px]:inline-flex rounded-xl border border-white/10 bg-white/5 p-2.5 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-cyan-100"
           >
             <Linkedin className="w-4 h-4" />
           </a>
@@ -201,7 +201,7 @@ const Nav: React.FC = () => {
           <a
             aria-label="Email"
             href={PERFIL.socials.email}
-            className="hidden min-[1126px]:inline-flex rounded-xl border border-white/10 bg-white/5 p-2.5 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
+            className="hidden min-[1126px]:inline-flex rounded-xl border border-white/10 bg-white/5 p-2.5 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-cyan-100"
           >
             <Mail className="w-4 h-4" />
           </a>
@@ -209,7 +209,7 @@ const Nav: React.FC = () => {
           {/* Hamburguesa solo móvil/tablet */}
           <button
             aria-label="Abrir menú"
-            className="inline-flex min-[1126px]:hidden rounded-xl border border-white/10 bg-white/5 p-2.5 text-white/85 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
+            className="inline-flex min-[1126px]:hidden rounded-xl border border-white/10 bg-white/5 p-2.5 text-white/85 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-cyan-100"
             onClick={() => setAbierto(true)}
           >
             <Menu className="w-5 h-5" />
@@ -244,7 +244,7 @@ const Nav: React.FC = () => {
 
                 <button
                   aria-label="Cerrar menú"
-                  className="rounded-xl border border-white/10 bg-white/5 p-2 text-white/80 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
+                  className="rounded-xl border border-white/10 bg-white/5 p-2 text-white/80 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-cyan-100"
                   onClick={() => setAbierto(false)}
                 >
                   <X className="w-5 h-5" />
@@ -307,7 +307,7 @@ const Nav: React.FC = () => {
                       href={PERFIL.socials.github}
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white/80 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
+                      className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white/80 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-cyan-100"
                     >
                       <Github className="w-4 h-4" />
                     </a>
@@ -317,7 +317,7 @@ const Nav: React.FC = () => {
                       href={PERFIL.socials.linkedin}
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white/80 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
+                      className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white/80 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-cyan-100"
                     >
                       <Linkedin className="w-4 h-4" />
                     </a>
@@ -325,7 +325,7 @@ const Nav: React.FC = () => {
                     <a
                       aria-label="Email"
                       href={PERFIL.socials.email}
-                      className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white/80 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
+                      className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white/80 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-cyan-100"
                     >
                       <Mail className="w-4 h-4" />
                     </a>

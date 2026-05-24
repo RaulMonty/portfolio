@@ -66,7 +66,7 @@ const Proyectos: React.FC = () => {
 
         <h2 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] tracking-tight">
           <span className="text-white/80">Proyectos llevados</span>
-          <span className="block bg-gradient-to-r from-cyan-300 via-pink-500 to-blue-400 bg-clip-text text-transparent italic">
+          <span className="block bg-gradient-to-r from-cyan-300 via-sky-300 to-blue-400 bg-clip-text text-transparent italic">
             a la práctica
           </span>
         </h2>

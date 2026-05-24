@@ -26,7 +26,7 @@ const Contacto: React.FC = () => (
 
         <h2 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] tracking-tight">
           <span className="text-white/80">Disponible para</span>
-          <span className="block bg-gradient-to-r from-cyan-300 via-pink-500 to-blue-400 bg-clip-text text-transparent italic">
+          <span className="block bg-gradient-to-r from-cyan-300 via-sky-300 to-blue-400 bg-clip-text text-transparent italic">
             nuevos proyectos
           </span>
         </h2>
@@ -67,7 +67,7 @@ const Contacto: React.FC = () => (
 
                   <a
                     href="mailto:ramontyfe@hotmail.com"
-                    className="mt-2 block break-all text-white font-medium hover:text-rose-300 transition"
+                    className="mt-2 block break-all text-white font-medium hover:text-cyan-100 transition"
                   >
                     ramontyfe@hotmail.com
                   </a>

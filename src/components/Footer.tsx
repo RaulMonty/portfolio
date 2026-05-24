@@ -48,7 +48,7 @@ const Footer: React.FC = () => (
               href={PROFILE.socials.github}
               target="_blank"
               rel="noreferrer"
-              className="rounded-xl border border-white/10 bg-white/5 p-3 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
+              className="rounded-xl border border-white/10 bg-white/5 p-3 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-cyan-100"
             >
               <Github className="w-4 h-4" />
             </a>
@@ -58,7 +58,7 @@ const Footer: React.FC = () => (
               href={PROFILE.socials.linkedin}
               target="_blank"
               rel="noreferrer"
-              className="rounded-xl border border-white/10 bg-white/5 p-3 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
+              className="rounded-xl border border-white/10 bg-white/5 p-3 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-cyan-100"
             >
               <Linkedin className="w-4 h-4" />
             </a>
@@ -66,7 +66,7 @@ const Footer: React.FC = () => (
             <a
               aria-label="Email"
               href={PROFILE.socials.email}
-              className="rounded-xl border border-white/10 bg-white/5 p-3 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-rose-300"
+              className="rounded-xl border border-white/10 bg-white/5 p-3 text-white/65 transition hover:bg-cyan-300/12 hover:border-cyan-300/30 hover:text-cyan-100"
             >
               <Mail className="w-4 h-4" />
             </a>

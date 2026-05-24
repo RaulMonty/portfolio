@@ -156,7 +156,7 @@ export default function App() {
 
               <h2 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] tracking-tight">
                 <span className="text-white/70">De ideas a</span>
-                <span className="block bg-gradient-to-r from-cyan-300 via-pink-500 to-blue-400 bg-clip-text text-transparent">
+                <span className="block bg-gradient-to-r from-cyan-300 via-sky-300 to-blue-400 bg-clip-text text-transparent">
                   aplicaciones web funcionales
                 </span>
               </h2>
@@ -170,7 +170,7 @@ export default function App() {
               <div className="h-full rounded-[30px] p-[1px] bg-gradient-to-br from-cyan-300/25 via-fuchsia-500/10 to-amber-300/15 shadow-[0_20px_80px_-35px_rgba(0,0,0,0.55)]">
                 <div className="h-full rounded-[30px] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.03))] backdrop-blur-xl p-6 sm:p-8 md:p-10 flex flex-col">
                   <div className="max-w-3xl">
-                    <span className="inline-flex items-center rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-1.5 text-[11px] font-medium uppercase tracking-[0.25em] text-rose-300">
+                    <span className="inline-flex items-center rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-1.5 text-[11px] font-medium uppercase tracking-[0.25em] text-cyan-100">
                       Especialización
                     </span>
 
