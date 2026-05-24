@@ -149,7 +149,7 @@ export default function App() {
             className="relative max-w-[1440px] mx-auto px-4 md:px-6 pt-16 md:pt-24 pb-14 md:pb-20"
           >
             <div className="max-w-3xl">
-              <div className="inline-flex items-center gap-2 text-rose-400 text-[11px] sm:text-xs uppercase tracking-[0.28em]">
+              <div className="inline-flex items-center gap-2 text-cyan-200 text-[11px] sm:text-xs uppercase tracking-[0.28em]">
                 <UserCircle2 className="w-4 h-4" />
                 <span>Perfil profesional</span>
               </div>
@@ -176,7 +176,7 @@ export default function App() {
 
                     <h3 className="mt-5 text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-white">
                        Aplicaciones web 
-                      <span className="block bg-gradient-to-r from-rose-400 via-pink-400 to-fuchsia-400 bg-clip-text text-transparent">
+                      <span className="block bg-gradient-to-r from-cyan-200 via-pink-400 to-fuchsia-400 bg-clip-text text-transparent">
                       con backend sólido y UX cuidada
                       </span>
                     </h3>
@@ -237,7 +237,7 @@ export default function App() {
                         className="rounded-2xl border border-white/8 bg-white/[0.03] p-4 sm:p-5 min-h-[132px] flex"
                       >
                         <div className="flex items-start gap-4 w-full">
-                          <div className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl border border-white/10 bg-white/5 text-rose-400">
+                          <div className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl border border-white/10 bg-white/5 text-cyan-200">
                             {item.icon}
                           </div>
 
@@ -256,7 +256,7 @@ export default function App() {
 
                   <div className="mt-6 rounded-2xl border border-white/8 bg-gradient-to-r from-cyan-300/10 to-fuchsia-500/5 p-5">
                     <p className="text-sm sm:text-[15px] leading-7 text-white/70">
-                      <span className="mr-2 font-semibold text-rose-400">{"/>"}</span>
+                      <span className="mr-2 font-semibold text-cyan-200">{"/>"}</span>
                       Me interesa formar parte de proyectos donde pueda seguir creciendo,
                       aportar valor desde el primer día y construir producto con criterio
                       técnico y visual.

@@ -403,7 +403,7 @@ const Tecnologias: React.FC = () => {
     children: React.ReactNode;
   }> = ({ icon, children }) => (
     <div className="flex items-center gap-3">
-      <div className="grid h-11 w-11 place-items-center rounded-2xl border border-cyan-300/20 bg-cyan-300/10 text-rose-400">
+      <div className="grid h-11 w-11 place-items-center rounded-2xl border border-cyan-300/20 bg-cyan-300/10 text-cyan-200">
         {icon}
       </div>
       <h3 className="text-lg sm:text-xl font-bold text-white">{children}</h3>
@@ -455,7 +455,7 @@ const Tecnologias: React.FC = () => {
       {/* Encabezado principal */}
       <div className="grid gap-8 xl:grid-cols-[1.1fr_0.9fr] items-start">
         <div className="max-w-3xl">
-          <div className="inline-flex items-center gap-2 text-rose-400 text-[11px] sm:text-xs uppercase tracking-[0.28em]">
+          <div className="inline-flex items-center gap-2 text-cyan-200 text-[11px] sm:text-xs uppercase tracking-[0.28em]">
             <Layers className="w-4 h-4" />
             <span>Stack tecnológico</span>
           </div>
@@ -485,7 +485,7 @@ const Tecnologias: React.FC = () => {
             <div className="absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2">
               <div className="rounded-xl border border-cyan-300/20 bg-[#170d22]/95 px-2 py-1.5 shadow-[0_18px_45px_-18px_rgba(244,63,94,.45)] sm:px-2.5 sm:py-2">
                 <div className="flex items-center gap-1.5 sm:gap-2">
-                  <div className="grid h-6 w-6 place-items-center rounded-lg border border-cyan-300/20 bg-cyan-300/12 text-rose-400 sm:h-7 sm:w-7">
+                  <div className="grid h-6 w-6 place-items-center rounded-lg border border-cyan-300/20 bg-cyan-300/12 text-cyan-200 sm:h-7 sm:w-7">
                     <Cpu className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
                   </div>
 

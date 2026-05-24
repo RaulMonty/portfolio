@@ -59,7 +59,7 @@ const Proyectos: React.FC = () => {
       className="relative max-w-[1440px] mx-auto px-4 md:px-6 pt-16 md:pt-24 pb-14 md:pb-20"
     >
       <div className="max-w-3xl">
-        <div className="inline-flex items-center gap-2 text-rose-400 text-[11px] sm:text-xs uppercase tracking-[0.28em]">
+        <div className="inline-flex items-center gap-2 text-cyan-200 text-[11px] sm:text-xs uppercase tracking-[0.28em]">
           <Code2 className="w-4 h-4" />
           <span>Proyectos destacados</span>
         </div>
@@ -154,7 +154,7 @@ const Proyectos: React.FC = () => {
                         <button
                           type="button"
                           onClick={() => toggle(key)}
-                          className="text-rose-400 text-sm underline underline-offset-4 decoration-rose-400/40"
+                          className="text-cyan-200 text-sm underline underline-offset-4 decoration-cyan-200/40"
                         >
                           {isOpen ? "Ver menos" : "Ver más"}
                         </button>
@@ -381,7 +381,7 @@ const Proyectos: React.FC = () => {
                       <button
                         type="button"
                         onClick={() => toggle(key)}
-                        className="text-rose-400 text-sm underline underline-offset-4 decoration-rose-400/40"
+                        className="text-cyan-200 text-sm underline underline-offset-4 decoration-cyan-200/40"
                       >
                         {isOpen ? "Ver menos" : "Ver más"}
                       </button>

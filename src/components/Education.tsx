@@ -18,7 +18,7 @@ const Educacion: React.FC = () => (
   >
     {/* encabezado */}
     <div className="max-w-3xl">
-      <div className="inline-flex items-center gap-2 text-rose-400 text-[11px] sm:text-xs uppercase tracking-[0.28em]">
+      <div className="inline-flex items-center gap-2 text-cyan-200 text-[11px] sm:text-xs uppercase tracking-[0.28em]">
         <GraduationCap className="w-4 h-4" />
         <span>Formación académica</span>
       </div>
@@ -73,7 +73,7 @@ const Educacion: React.FC = () => (
 
                     <div className="shrink-0">
                       <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-sm text-white/78">
-                        <CalendarDays className="h-4 w-4 text-rose-400" />
+                        <CalendarDays className="h-4 w-4 text-cyan-200" />
                         {estudio.period}
                       </span>
                     </div>

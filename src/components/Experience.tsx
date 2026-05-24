@@ -25,7 +25,7 @@ const Experiencia: React.FC = () => {
     >
       {/* Encabezado */}
       <div className="max-w-3xl">
-        <div className="inline-flex items-center gap-2 text-rose-400 text-[11px] sm:text-xs uppercase tracking-[0.28em]">
+        <div className="inline-flex items-center gap-2 text-cyan-200 text-[11px] sm:text-xs uppercase tracking-[0.28em]">
           <Briefcase className="w-4 h-4" />
           <span>Experiencia profesional reciente</span>
         </div>
@@ -63,7 +63,7 @@ const Experiencia: React.FC = () => {
                     {/* fila superior */}
                     <div className="flex items-center justify-between gap-3">
                       <div className="inline-flex items-center gap-2 text-xs sm:text-sm text-white/60">
-                        <CalendarDays className="h-4 w-4 text-rose-400/80" />
+                        <CalendarDays className="h-4 w-4 text-cyan-200/80" />
                         <span>{experiencia.period}</span>
                       </div>
                     </div>
@@ -75,7 +75,7 @@ const Experiencia: React.FC = () => {
                       </h3>
 
                       <p className="mt-2 flex items-center gap-2 text-cyan-300 font-semibold uppercase tracking-[0.08em] text-sm sm:text-base">
-                        <Building2 className="w-4 h-4 text-rose-400" />
+                        <Building2 className="w-4 h-4 text-cyan-200" />
                         {experiencia.company}
                       </p>
                     </div>
@@ -84,7 +84,7 @@ const Experiencia: React.FC = () => {
                     <ul className="space-y-3 text-white/72 text-sm sm:text-[15px] leading-7">
                       {summaryPoints.map((punto) => (
                         <li key={punto} className="flex gap-3">
-                          <span className="mt-[10px] h-1.5 w-1.5 rounded-full bg-rose-400/80 shrink-0" />
+                          <span className="mt-[10px] h-1.5 w-1.5 rounded-full bg-cyan-200/80 shrink-0" />
                           <span>{punto}</span>
                         </li>
                       ))}

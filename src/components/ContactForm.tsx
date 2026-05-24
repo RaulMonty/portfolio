@@ -71,7 +71,7 @@ export default function ContactForm() {
               placeholder:text-white/25
               backdrop-blur-xl
               transition-all duration-300
-              focus:outline-none focus:ring-2 focus:ring-rose-400/40 focus:border-rose-400/30
+              focus:outline-none focus:ring-2 focus:ring-cyan-200/40 focus:border-cyan-200/30
             "
           />
         </div>
@@ -92,7 +92,7 @@ export default function ContactForm() {
               placeholder:text-white/25
               backdrop-blur-xl
               transition-all duration-300
-              focus:outline-none focus:ring-2 focus:ring-rose-400/40 focus:border-rose-400/30
+              focus:outline-none focus:ring-2 focus:ring-cyan-200/40 focus:border-cyan-200/30
             "
           />
         </div>
@@ -114,7 +114,7 @@ export default function ContactForm() {
             placeholder:text-white/25
             backdrop-blur-xl
             transition-all duration-300
-            focus:outline-none focus:ring-2 focus:ring-rose-400/40 focus:border-rose-400/30
+            focus:outline-none focus:ring-2 focus:ring-cyan-200/40 focus:border-cyan-200/30
             resize-none
           "
         />
@@ -137,7 +137,7 @@ export default function ContactForm() {
             transition-all duration-300
             hover:brightness-110
             disabled:opacity-60 disabled:cursor-not-allowed
-            focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400/40
+            focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-200/40
           "
         >
           {isSending ? (

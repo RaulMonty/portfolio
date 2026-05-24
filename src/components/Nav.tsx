@@ -234,7 +234,7 @@ const Nav: React.FC = () => {
             <div className="rounded-[28px] border border-white/10 bg-[#120b1f]/95 backdrop-blur-xl flex flex-col max-h-[calc(100dvh-6rem)] overflow-hidden">
               <div className="flex items-center justify-between px-5 py-4 border-b border-white/10">
                 <div>
-                  <p className="text-[11px] uppercase tracking-[0.26em] text-rose-400">
+                  <p className="text-[11px] uppercase tracking-[0.26em] text-cyan-200">
                     Navegación
                   </p>
                   <p className="mt-1 text-white font-semibold">

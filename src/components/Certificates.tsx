@@ -16,7 +16,7 @@ const Certificados: React.FC = () => {
     >
       {/* Encabezado */}
       <div className="max-w-3xl">
-        <div className="inline-flex items-center gap-2 text-rose-400 text-[11px] sm:text-xs uppercase tracking-[0.28em]">
+        <div className="inline-flex items-center gap-2 text-cyan-200 text-[11px] sm:text-xs uppercase tracking-[0.28em]">
           <BadgeCheck className="w-4 h-4" />
           <span>Certificaciones</span>
         </div>
@@ -77,12 +77,12 @@ const Certificados: React.FC = () => {
                     <div className="flex items-center gap-2 text-[11px] sm:text-sm leading-5 min-w-0">
                       <span className="text-white/62 truncate">{certificado.org}</span>
                       <span className="text-white/20">·</span>
-                      <CalendarDays className="h-3.5 w-3.5 text-rose-400 shrink-0" />
+                      <CalendarDays className="h-3.5 w-3.5 text-cyan-200 shrink-0" />
                       <span className="text-white/45">{certificado.date}</span>
                     </div>
 
                     {isOnline && (
-                      <ExternalLink className="mt-0.5 h-4 w-4 sm:h-5 sm:w-5 shrink-0 text-white/30 transition-all duration-300 group-hover:text-rose-400 group-hover:scale-110" />
+                      <ExternalLink className="mt-0.5 h-4 w-4 sm:h-5 sm:w-5 shrink-0 text-white/30 transition-all duration-300 group-hover:text-cyan-200 group-hover:scale-110" />
                     )}
                   </div>
 
@@ -99,7 +99,7 @@ const Certificados: React.FC = () => {
                           decoding="async"
                         />
                       ) : (
-                        <Award className="h-5 w-5 sm:h-6 sm:w-6 text-rose-400" />
+                        <Award className="h-5 w-5 sm:h-6 sm:w-6 text-cyan-200" />
                       )}
                     </div>
 
