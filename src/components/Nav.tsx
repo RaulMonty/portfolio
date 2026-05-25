@@ -126,7 +126,7 @@ const Nav: React.FC = () => {
 
           <img
             src="/favicon.svg"
-            alt="Logo MR"
+            alt="Logo RM"
             className="
               h-12 w-12 object-contain
               transition duration-300 ease-out

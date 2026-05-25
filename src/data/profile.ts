@@ -302,7 +302,7 @@ export const PERFIL = {
     linkedin: "https://www.linkedin.com/in/raulmontiel/",
     github: "https://github.com/RaulMonty",
   },
-  cv: "https://github.com/mariarosete/mariarosete/raw/main/assets/cv/CV_MRS.pdf",
+  cv: "https://github.com/RaulMonty/raw/blob/main/CV_Raul_Montiel.pdf",
 };
 
 export const PROFILE = PERFIL;

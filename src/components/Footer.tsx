@@ -23,7 +23,7 @@ const Footer: React.FC = () => (
           <div className="flex items-center gap-3">
             <img
               src="/favicon.svg"
-              alt="Logo MR"
+              alt="Logo RM"
               className="h-7 w-7 object-contain"
             />
             <span className="text-white/85 font-semibold tracking-tight text-lg sm:text-base">
