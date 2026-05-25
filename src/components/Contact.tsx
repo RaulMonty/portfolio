@@ -32,7 +32,7 @@ const Contacto: React.FC = () => (
         </h2>
 
         <p className="mt-6 max-w-xl text-white/58 text-base sm:text-lg leading-8">
-          Estoy abierta a oportunidades y proyectos donde aportar valor desde el desarrollo backend y APIs, complementando con frontend para construir aplicaciones completas.
+          Estoy abierto a oportunidades y proyectos donde aportar valor desde el desarrollo backend y APIs, complementando con frontend para construir aplicaciones completas.
         </p>
 
         { }
@@ -42,11 +42,11 @@ const Contacto: React.FC = () => (
               Disponibilidad
             </p>
             <p className="mt-4 text-white text-xl sm:text-2xl font-bold leading-tight">
-              Lista para nuevos retos
+              Listo para nuevos retos
             </p>
             <p className="mt-3 text-white/62 text-sm sm:text-[15px] leading-7">
               Si crees que mi perfil puede encajar en tu equipo o proyecto,
-              estaré encantada de hablar contigo.
+              estaré encantado de hablar contigo.
             </p>
           </div>
         </div>
@@ -80,7 +80,7 @@ const Contacto: React.FC = () => (
         {/* Redes */}
         <div className="mt-8">
           <p className="text-[11px] uppercase tracking-[0.26em] text-white/35">
-            También puedes encontrarme en
+            También puedes encontrarme en:
           </p>
 
           <div className="mt-4 flex flex-wrap gap-3">

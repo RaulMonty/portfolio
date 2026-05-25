@@ -295,7 +295,7 @@ export const PERFIL = {
   name: "Raúl Montiel",
   role: "Maquetador Web y UX/UI Designer.",
   about:
-    "Me centro en el desarrollo de aplicaciones web, cuidando la claridad del código, la mantenibilidad y las buenas prácticas. Además, tengo experiencia en frontend con React, Vue.js y Angular, lo que me permite tener una visión global del desarrollo de aplicaciones web.",
+    "Desde el 2016 me centro en el desarrollo de aplicaciones web, cuidando la claridad del código, la mantenibilidad y las buenas prácticas. Además, tengo experiencia en frontend con React, Vue.js y Angular, lo que me permite tener una visión global del desarrollo de aplicaciones web.",
   photo: portada,
   socials: {
     email: "mailto:ramontyfe@hotmail.com",

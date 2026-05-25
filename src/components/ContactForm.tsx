@@ -123,7 +123,7 @@ export default function ContactForm() {
       <input type="text" name="_gotcha" className="hidden" aria-hidden="true" />
 
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <p className="text-xs text-white/38">* Campos obligatorios.</p>
+        <p className="text-xs text-white/38">(*) Campos obligatorios.</p>
 
         <button
           type="submit"

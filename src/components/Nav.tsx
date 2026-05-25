@@ -298,7 +298,7 @@ const Nav: React.FC = () => {
 
                 <div className="mt-5 px-1 pb-2">
                   <p className="mb-3 text-[11px] uppercase tracking-[0.24em] text-white/35">
-                    También puedes encontrarme en
+                    También puedes encontrarme en:
                   </p>
 
                   <div className="grid grid-cols-3 gap-2">
