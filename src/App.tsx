@@ -196,7 +196,7 @@ export default function App() {
 
                   <div className="mt-8">
                     <h4 className="text-sm font-semibold uppercase tracking-[0.22em] text-white/45">
-                      Tecnologías principales
+                      Tecnologías principales:
                     </h4>
 
                     <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-2 sm:gap-3">

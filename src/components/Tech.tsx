@@ -457,7 +457,7 @@ const Tecnologias: React.FC = () => {
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 text-cyan-200 text-[11px] sm:text-xs uppercase tracking-[0.28em]">
             <Layers className="w-4 h-4" />
-            <span>Stack tecnológico</span>
+            <span>Herramientas y tecnologías</span>
           </div>
 
           <h2 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] tracking-tight">

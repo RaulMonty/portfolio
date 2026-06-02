@@ -8,7 +8,7 @@ import pasteleria from "../assets/pasteleriaCreativa.jpg";
 import flowDocument from "../assets/pasteleria.jpg";
 import disney from "../assets/disney.jpg";
 import pizarra from "../assets/pizarra.jpg";
-import portada from "../assets/MRS.png";
+import portada from "../assets/RMF.png";
 import pasteleriaVideo from "../assets/pasteleria.mp4";
 import asgardGym from "../assets/AsgardGym.mp4";
 import servidorVideo from "../assets/Servidor.mp4";
