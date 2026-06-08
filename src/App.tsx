@@ -12,16 +12,20 @@ import { UserCircle2, Code2, Briefcase, BrainCircuit } from "lucide-react";
 import {
   SiFigma,
   SiHtml5,
-  SiVuedotjs,
-  SiReact,
-  SiVite,
+  SiBootstrap,
   SiTailwindcss,
-  SiSwagger,
-  SiGit,
+  SiDrupal,
+  SiWordpress,
+  SiGit
 } from "react-icons/si";
 import {
   FaCss3Alt
 } from "react-icons/fa";
+import {
+  TbBrandAdobePhotoshop,
+  TbBrandAdobeIllustrator,
+  TbBrandAdobeIndesign
+} from "react-icons/tb";
 import type { IconType } from "react-icons";
 
 type Chip = {
@@ -43,7 +47,7 @@ export default function App() {
     {
       Icono: SiFigma,
       etiqueta: "Figma",
-      color: "text-[#f24e1e]",
+      color: "text-[#9d56f8]",
       bg: "bg-[#0d171c]",
       border: "border-[#9d56f8]",
     },
@@ -57,30 +61,16 @@ export default function App() {
     {
       Icono: FaCss3Alt,
       etiqueta: "CSS 3",
-      color: "text-[#e54d26]",
+      color: "text-[#379ad5]",
       bg: "bg-[#379ad5]",
       border: "border-[#2d214b]",
     },
     {
-      Icono: SiReact,
-      etiqueta: "React",
-      color: "text-[#61DAFB]",
+      Icono: SiBootstrap,
+      etiqueta: "Bootstrap",
+      color: "text-[#7431fa]",
       bg: "bg-[#0d1820]",
       border: "border-[#1f3745]",
-    },
-    {
-      Icono: SiVuedotjs,
-      etiqueta: "Vue.js",
-      color: "text-[#42B883]",
-      bg: "bg-[#101913]",
-      border: "border-[#1e3528]",
-    },
-    {
-      Icono: SiVite,
-      etiqueta: "Vite",
-      color: "text-[#8b92ff]",
-      bg: "bg-[#141626]",
-      border: "border-[#2b2f55]",
     },
     {
       Icono: SiTailwindcss,
@@ -90,9 +80,37 @@ export default function App() {
       border: "border-[#1b3944]",
     },
     {
-      Icono: SiSwagger,
-      etiqueta: "Swagger",
-      color: "text-[#a3e635]",
+      Icono: SiDrupal,
+      etiqueta: "Drupal",
+      color: "text-[#12285f]",
+      bg: "bg-[#101913]",
+      border: "border-[#1e3528]",
+    },
+    {
+      Icono: SiWordpress,
+      etiqueta: "WordPress",
+      color: "text-[#1d2327]",
+      bg: "bg-[#141626]",
+      border: "border-[#2b2f55]",
+    },
+    {
+      Icono: TbBrandAdobePhotoshop,
+      etiqueta: "Adobe Photoshop",
+      color: "text-[#31a8ff]",
+      bg: "bg-[#171b0e]",
+      border: "border-[#384019]",
+    },
+    {
+      Icono: TbBrandAdobeIllustrator,
+      etiqueta: "Adobe Illustrator",
+      color: "text-[#FFA500]",
+      bg: "bg-[#171b0e]",
+      border: "border-[#384019]",
+    },
+    {
+      Icono: TbBrandAdobeIndesign,
+      etiqueta: "Adobe Indesign",
+      color: "text-[#E749A0]",
       bg: "bg-[#171b0e]",
       border: "border-[#384019]",
     },

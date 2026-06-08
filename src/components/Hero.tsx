@@ -11,7 +11,7 @@ import {
   SiHtml5,
   SiFigma,
   SiNodedotjs,
-  SiGit,
+  SiGit
 } from "react-icons/si";
 import {
   FaCss3Alt
