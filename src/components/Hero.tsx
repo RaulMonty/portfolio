@@ -8,13 +8,17 @@ import {
   Mail,
 } from "lucide-react";
 import {
-  SiDotnet,
-  SiReact,
+  SiHtml5,
   SiFigma,
   SiNodedotjs,
   SiGit,
-  SiAngular,
 } from "react-icons/si";
+import {
+  FaCss3Alt
+} from "react-icons/fa";
+import {
+  BiLogoAdobe
+} from "react-icons/bi";
 import type { IconType } from "react-icons";
 
 type FloatingTech = {
@@ -28,12 +32,12 @@ type FloatingTech = {
 const Hero: React.FC = () => {
   const FLOATING_TECHS: FloatingTech[] = [
     {
-      Icono: SiDotnet,
-      label: ".NET",
+      Icono: SiHtml5,
+      label: "HTML 5",
       wrapperClassName:
         "absolute left-[8%] top-[12%] sm:left-[11%] sm:top-[15%] lg:left-[10%] lg:top-[14%]",
       bubbleClassName: "animate-float-slow [animation-delay:0s]",
-      color: "text-[#b794ff]",
+      color: "text-[#e54d26]",
     },
     {
       Icono: SiFigma,
@@ -44,20 +48,20 @@ const Hero: React.FC = () => {
       color: "text-[#f24e1e]",
     },
     {
-      Icono: SiReact,
-      label: "React",
+      Icono: FaCss3Alt,
+      label: "CSS 3",
       wrapperClassName:
         "absolute right-[8%] top-[12%] sm:right-[10%] sm:top-[13%] lg:right-[9%] lg:top-[12%]",
       bubbleClassName: "animate-float-medium [animation-delay:.6s]",
-      color: "text-[#61DAFB]",
+      color: "text-[#379ad5]",
     },
     {
-      Icono: SiAngular,
-      label: "Angular",
+      Icono: BiLogoAdobe,
+      label: "Adobe",
       wrapperClassName:
         "absolute right-[0%] top-1/2 -translate-y-1/2 sm:right-[2%] lg:right-[1%]",
       bubbleClassName: "animate-float-slow-reverse [animation-delay:1.2s]",
-      color: "text-[#dd0031]",
+      color: "text-[#eb0f00]",
     },
     {
       Icono: SiGit,
