@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
       wrapperClassName:
         "absolute left-1/2 -translate-x-1/2 top-[0%] sm:top-[0%] lg:top-[-1%]",
       bubbleClassName: "animate-float-medium-reverse [animation-delay:1.8s]",
-      color: "text-[#f24e1e]",
+      color: "text-[#9d56f8]",
     },
     {
       Icono: FaCss3Alt,

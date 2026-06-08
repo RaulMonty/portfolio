@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import { UserCircle2, Code2, Briefcase, BrainCircuit } from "lucide-react";
 
 import {
+  SiFigma,
   SiDotnet,
   SiNodedotjs,
   SiVuedotjs,
@@ -18,7 +19,6 @@ import {
   SiTailwindcss,
   SiSwagger,
   SiGit,
-  SiFigma,
 } from "react-icons/si";
 import type { IconType } from "react-icons";
 
@@ -38,6 +38,13 @@ type Highlight = {
 
 export default function App() {
   const CHIPS_SOBRE_MI: Chip[] = [
+    {
+      Icono: SiFigma,
+      etiqueta: "Figma",
+      color: "text-[#f24e1e]",
+      bg: "bg-[#0d171c]",
+      border: "border-[#1f3b47]",
+    },
     {
       Icono: SiDotnet,
       etiqueta: ".NET / ASP.NET Core",
@@ -93,13 +100,6 @@ export default function App() {
       color: "text-[#F05032]",
       bg: "bg-[#1d110d]",
       border: "border-[#4b2319]",
-    },
-    {
-      Icono: SiFigma,
-      etiqueta: "Figma",
-      color: "text-[#f24e1e]",
-      bg: "bg-[#0d171c]",
-      border: "border-[#1f3b47]",
     },
   ];
 
