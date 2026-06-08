@@ -10,7 +10,7 @@ import {
 import {
   SiDotnet,
   SiReact,
-  SiMysql,
+  SiFigma,
   SiNodedotjs,
   SiGit,
   SiAngular,
@@ -36,12 +36,12 @@ const Hero: React.FC = () => {
       color: "text-[#b794ff]",
     },
     {
-      Icono: SiMysql,
-      label: "MySQL",
+      Icono: SiFigma,
+      label: "Figma",
       wrapperClassName:
         "absolute left-1/2 -translate-x-1/2 top-[0%] sm:top-[0%] lg:top-[-1%]",
       bubbleClassName: "animate-float-medium-reverse [animation-delay:1.8s]",
-      color: "text-[#4fc3e8]",
+      color: "text-[#f24e1e]",
     },
     {
       Icono: SiReact,
@@ -97,7 +97,7 @@ const Hero: React.FC = () => {
             <div className="max-w-2xl text-center lg:text-left">
               <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[10px] sm:text-xs font-medium uppercase tracking-[0.25em] text-white/80 backdrop-blur">
                 <span className="h-2 w-2 rounded-full bg-cyan-300" />
-                .NET Developer
+                Senior UX/UI Designer
               </div>
 
               <h1 className="mt-5 text-[42px] leading-[0.95] sm:text-6xl lg:text-7xl font-black tracking-tight">

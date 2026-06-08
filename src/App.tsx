@@ -18,7 +18,7 @@ import {
   SiTailwindcss,
   SiSwagger,
   SiGit,
-  SiMysql,
+  SiFigma,
 } from "react-icons/si";
 import type { IconType } from "react-icons";
 
@@ -95,9 +95,9 @@ export default function App() {
       border: "border-[#4b2319]",
     },
     {
-      Icono: SiMysql,
-      etiqueta: "MySQL",
-      color: "text-[#4fc3e8]",
+      Icono: SiFigma,
+      etiqueta: "Figma",
+      color: "text-[#f24e1e]",
       bg: "bg-[#0d171c]",
       border: "border-[#1f3b47]",
     },
