@@ -11,8 +11,7 @@ import { UserCircle2, Code2, Briefcase, BrainCircuit } from "lucide-react";
 
 import {
   SiFigma,
-  SiDotnet,
-  SiNodedotjs,
+  SiHtml5,
   SiVuedotjs,
   SiReact,
   SiVite,
@@ -20,6 +19,9 @@ import {
   SiSwagger,
   SiGit,
 } from "react-icons/si";
+import {
+  FaCss3Alt
+} from "react-icons/fa";
 import type { IconType } from "react-icons";
 
 type Chip = {
@@ -43,13 +45,20 @@ export default function App() {
       etiqueta: "Figma",
       color: "text-[#f24e1e]",
       bg: "bg-[#0d171c]",
-      border: "border-[#1f3b47]",
+      border: "border-[#9d56f8]",
     },
     {
-      Icono: SiDotnet,
-      etiqueta: ".NET / ASP.NET Core",
-      color: "text-[#a78bfa]",
+      Icono: SiHtml5,
+      etiqueta: "HTML 5",
+      color: "text-[#e54d26]",
       bg: "bg-[#151125]",
+      border: "border-[#2d214b]",
+    },
+    {
+      Icono: FaCss3Alt,
+      etiqueta: "CSS 3",
+      color: "text-[#e54d26]",
+      bg: "bg-[#379ad5]",
       border: "border-[#2d214b]",
     },
     {
@@ -58,13 +67,6 @@ export default function App() {
       color: "text-[#61DAFB]",
       bg: "bg-[#0d1820]",
       border: "border-[#1f3745]",
-    },
-    {
-      Icono: SiNodedotjs,
-      etiqueta: "Node.js",
-      color: "text-[#67c46a]",
-      bg: "bg-[#101912]",
-      border: "border-[#233626]",
     },
     {
       Icono: SiVuedotjs,
