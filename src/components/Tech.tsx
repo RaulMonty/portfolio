@@ -9,7 +9,7 @@ import {
   SiVuedotjs,
   SiQuasar,
   SiNodedotjs,
-  SiSpringboot,
+  SiFigma,
   SiDotnet,
   SiExpress,
   SiKotlin,
@@ -143,10 +143,10 @@ const Tecnologias: React.FC = () => {
       bg: "bg-[#f8f6ff] text-[#512BD4]",
     },
     {
-      Icono: SiSpringboot,
-      etiqueta: "Spring Boot",
-      ring: "ring-[#def5c2]",
-      bg: "bg-[#f8fff0] text-[#6DB33F]",
+      Icono: SiFigma,
+      etiqueta: "Figma",
+      ring: "ring-[#421d73]",
+      bg: "bg-[#160c22] text-[#9d56f8]",
     },
     {
       Icono: SiNodedotjs,
@@ -254,10 +254,10 @@ const Tecnologias: React.FC = () => {
   const DESTACADAS: TechItem[] = [
 
     {
-      Icono: SiSpringboot,
-      etiqueta: "Spring Boot",
-      ring: "ring-[#def5c2]",
-      bg: "bg-[#f8fff0] text-[#6DB33F]",
+      Icono: SiFigma,
+      etiqueta: "Figma",
+      ring: "ring-[#421d73]",
+      bg: "bg-[#160c22] text-[#9d56f8]",
     },
     {
       Icono: SiVuedotjs,
@@ -271,14 +271,12 @@ const Tecnologias: React.FC = () => {
       ring: "ring-[#d5f0d1]",
       bg: "bg-[#f6fff6] text-[#339933]",
     },
-
     {
       Icono: SiAngular,
       etiqueta: "Angular",
       ring: "ring-[#cfe8f0]",
       bg: "bg-[#f4fbff] text-[#00758F]",
     },
-
     {
       Icono: SiDotnet,
       etiqueta: ".NET",
@@ -291,8 +289,6 @@ const Tecnologias: React.FC = () => {
       ring: "ring-[#cfefff]",
       bg: "bg-[#f0fcff] text-[#61DAFB]",
     },
-
-
     {
       Icono: SiMysql,
       etiqueta: "MySQL",
@@ -494,7 +490,7 @@ const Tecnologias: React.FC = () => {
                       Núcleo técnico
                     </p>
                     <p className="mt-0.5 text-[10px] font-semibold text-white sm:text-[12px]">
-                      Backend + Frontend
+                      UX/UI Designer + Frontend
                     </p>
                   </div>
                 </div>

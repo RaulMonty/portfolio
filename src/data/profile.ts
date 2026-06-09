@@ -477,7 +477,7 @@ export const EXPERIENCIA = [
     company: "Grupo Altia – Proyecto para el Ministerio de Defensa",
     role: "Frontend Developer / UX UI Designer",
     period: "may. 2023 – abr. 2026",
-    techs: ["HTML5", "CSS3", "SASS", "Bootstrap", "JavaScript", "Liferay", "Visual Studio", "Git/GitHub", "Figma", "Lighthouse", "Photoshop", "Illustrator", "Excel", "Word"],
+    techs: ["HTML 5", "CSS 3", "SASS", "Bootstrap", "Javascript", "Liferay", "Visual Studio", "Git/GitHub", "Figma", "Lighthouse", "Photoshop", "Illustrator", "Excel", "Word"],
     points: [
       "Lideré el rediseño visual y maquetación responsive de múltiples portales institucionales del Ministerio de Defensa (El rediseño de este portal por ejemplo, le hice íntegramente yo con Figma, y luego le maqueté junto con mis compañeros: https://reclutamiento.defensa.gob.es).",
       "Diseñé interfaces completas en Figma aplicando criterios UX/UI, accesibilidad AA y SEO técnico.",
@@ -488,13 +488,17 @@ export const EXPERIENCIA = [
     ],
   },
   {
-    company: "Ticmedia Soluciones Profesionales, S.L. Gijón",
-    role: "Desarrollo backend con Node.js + Vue.js",
-    period: "mar. 2024 – jun. 2024",
-    techs: ["Node.js", "Express", "JWT", "Vue.js", "Quasar", "MongoDB", "Mongoose", "GitHub"],
+    company: "Sivsa – Proyecto para Stellantis Groupe",
+    role: "Frontend Developer / UX UI Designer",
+    period: "feb. 2018 – feb. 2023",
+    techs: ["HTML 5", "CSS 3", "Bootstrap", "Javascript", "Drupal", "Adobe Experience Manager", "Visual Studio", "Docker", "Composer", "Git y GitHub", "Jira", "Figma", "Photoshop", "Illustrator", "InDesign", "Acrobat Pro", "Adobe Animate", "Google: AdWords, Analytics, Search Console", "Excel", "Word", "FileZilla", "PowerPoint"],
     points: [
-      "Backend: Desarrollé una API REST con Node.js y Express, implementando autenticación JWT para un sistema de gestión interna.",
-      "Frontend: Construí una interfaz dinámica y modular con Vue.js y Quasar Framework, optimizando la experiencia de usuario y mejorando la mantenibilidad del código.",
+      "Gestioné contenidos digitales y campañas online para marcas del grupo como Peugeot, Citroën, DS Automobiles y Opel.",
+      "Diseñé y maqueté landings, banners, newsletters y piezas digitales para campañas B2B y B2C.",
+      "Optimicé experiencias responsive y SEO técnico en plataformas Drupal y Adobe Experience Manager.",
+      "Coordiné materiales visuales corporativos manteniendo coherencia de marca en múltiples canales digitales.",
+      "Mejoré procesos de actualización y mantenimiento de activos digitales mediante flujos colaborativos con Git y Jira.",
+      "Participé en iniciativas UX/UI orientadas a mejorar navegación, engagement y experiencia de usuario.",
     ],
   },
 ];
