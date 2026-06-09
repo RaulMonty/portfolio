@@ -12,6 +12,7 @@ import { UserCircle2, Code2, Briefcase, BrainCircuit } from "lucide-react";
 import {
   SiFigma,
   SiHtml5,
+  SiJavascript,
   SiBootstrap,
   SiTailwindcss,
   SiDrupal,
@@ -48,75 +49,82 @@ export default function App() {
       Icono: SiFigma,
       etiqueta: "Figma",
       color: "text-[#9d56f8]",
-      bg: "bg-[#0d171c]",
+      bg: "bg-[#160c22]",
       border: "border-[#421d73]",
     },
     {
       Icono: SiHtml5,
       etiqueta: "HTML 5",
       color: "text-[#e54d26]",
-      bg: "bg-[#151125]",
+      bg: "bg-[#1f0b05]",
       border: "border-[#732e1d]",
     },
     {
       Icono: FaCss3Alt,
       etiqueta: "CSS 3",
       color: "text-[#379ad5]",
-      bg: "bg-[#379ad5]",
+      bg: "bg-[#08151d]",
       border: "border-[#1d5373]",
+    },
+    {
+      Icono: SiJavascript,
+      etiqueta: "Javascript",
+      color: "text-[#f0db4f]",
+      bg: "bg-[#211e0b]",
+      border: "border-[#73671d]",
     },
     {
       Icono: SiBootstrap,
       etiqueta: "Bootstrap",
       color: "text-[#7431fa]",
-      bg: "bg-[#0d1820]",
+      bg: "bg-[#100722]",
       border: "border-[#391d73]",
     },
     {
       Icono: SiTailwindcss,
       etiqueta: "Tailwind CSS",
       color: "text-[#38bdf8]",
-      bg: "bg-[#0c171d]",
+      bg: "bg-[#38bdf8]",
       border: "border-[#1b3944]",
     },
     {
       Icono: SiDrupal,
       etiqueta: "Drupal",
-      color: "text-[#12285f]",
-      bg: "bg-[#101913]",
-      border: "border-[#1d3573]",
+      color: "text-[#27a9df]",
+      bg: "bg-[#05171f]",
+      border: "border-[#1d5973]",
     },
     {
       Icono: SiWordpress,
       etiqueta: "WordPress",
-      color: "text-[#1d2327]",
-      bg: "bg-[#141626]",
-      border: "border-[#1d5073]",
+      color: "text-[#00749C]",
+      bg: "bg-[#001015]",
+      border: "border-[#1d5d73]",
     },
     {
       Icono: TbBrandAdobePhotoshop,
       etiqueta: "Adobe Photoshop",
       color: "text-[#31a8ff]",
-      bg: "bg-[#171b0e]",
+      bg: "bg-[#071723]",
       border: "border-[#1d4f73]",
     },
     {
       Icono: TbBrandAdobeIllustrator,
       etiqueta: "Adobe Illustrator",
       color: "text-[#FFA500]",
-      bg: "bg-[#171b0e]",
+      bg: "bg-[#231700]",
       border: "border-[#73551d]",
     },
     {
       Icono: TbBrandAdobeIndesign,
       etiqueta: "Adobe Indesign",
       color: "text-[#E749A0]",
-      bg: "bg-[#171b0e]",
+      bg: "bg-[#200a16]",
       border: "border-[#731d4c]",
     },
     {
       Icono: SiGit,
-      etiqueta: "Git",
+      etiqueta: "Git y GitHub",
       color: "text-[#F05032]",
       bg: "bg-[#1d110d]",
       border: "border-[#4b2319]",
@@ -126,18 +134,18 @@ export default function App() {
   const HIGHLIGHTS: Highlight[] = [
     {
       icon: <Code2 className="h-5 w-5" />,
-      title: "Backend con visión full stack",
-      text: "Desarrollo aplicaciones web con .NET y React, con especial enfoque en backend, APIs REST y soluciones escalables.",
+      title: "Frontend con visión full stack",
+      text: "Desarrollo aplicaciones web con especial enfoque en frontend y soluciones escalables.",
     },
     {
       icon: <Briefcase className="h-5 w-5" />,
       title: "Experiencia real",
-      text: "He trabajado en proyectos profesionales y académicos desarrollando APIs y aplicaciones web en entornos reales.",
+      text: "He trabajado en proyectos profesionales desarrollando aplicaciones web en entornos reales.",
     },
     {
       icon: <BrainCircuit className="h-5 w-5" />,
       title: "Mentalidad",
-      text: "Enfocada en construir software de calidad, cuidando el detalle y las buenas prácticas. Me interesa entender bien el problema antes de resolverlo, trabajar en equipo y desarrollar soluciones claras, mantenibles y con impacto real.",
+      text: "Enfocado en construir software de calidad, cuidando el detalle y las buenas prácticas. Me interesa entender bien el problema antes de resolverlo, trabajar en equipo y desarrollar soluciones claras, mantenibles y con impacto real.",
     },
   ];
 
@@ -197,7 +205,7 @@ export default function App() {
                     <h3 className="mt-5 text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-white">
                        Aplicaciones web 
                       <span className="block bg-gradient-to-r from-cyan-200 via-sky-200 to-fuchsia-400 bg-clip-text text-transparent">
-                      con backend sólido y UX cuidada
+                      con frontend sólido y UX/UI cuidadas
                       </span>
                     </h3>
 
@@ -209,7 +217,7 @@ export default function App() {
                       </p>
 
                       <p>
-                        Desarrollo APIs REST e interfaces web modernas, con especial atención a la claridad del código, las buenas prácticas y la mantenibilidad. Además, cuento con experiencia en React y en otras tecnologías como Node.js, Spring Boot, Vue.js, MySQL y Git.
+                        Desarrollo interfaces web modernas, con especial atención a la claridad del código, las buenas prácticas y la mantenibilidad. Además, cuento con experiencia en React y en otras tecnologías como Node.js, Spring Boot, Vue.js, MySQL y Git.
                       </p>
                     </div>
                   </div>

@@ -38,7 +38,7 @@ const Experiencia: React.FC = () => {
         </h2>
 
         <p className="mt-6 max-w-2xl text-white/55 text-base sm:text-lg leading-8">
-          Desarrollo backend, APIs REST y aplicaciones web con foco en código limpio, mantenibilidad y buenas prácticas.
+          Desarrollo frontend y aplicaciones web poniendo foco en el código limpio, mantenibilidad y buenas prácticas.
         </p>
       </div>
 

@@ -10,7 +10,7 @@ import {
 import {
   SiHtml5,
   SiFigma,
-  SiNodedotjs,
+  SiJavascript,
   SiGit
 } from "react-icons/si";
 import {
@@ -65,19 +65,19 @@ const Hero: React.FC = () => {
     },
     {
       Icono: SiGit,
-      label: "Git",
+      label: "Git y GitHub",
       wrapperClassName:
         "absolute left-1/2 -translate-x-1/2 bottom-[0%] sm:bottom-[0%] lg:bottom-[-1%]",
       bubbleClassName: "animate-float-fast [animation-delay:2.4s]",
       color: "text-[#F05032]",
     },
     {
-      Icono: SiNodedotjs,
-      label: "Node.js",
+      Icono: SiJavascript,
+      label: "Javascript",
       wrapperClassName:
         "absolute left-[0%] top-1/2 -translate-y-1/2 sm:left-[2%] lg:left-[1%]",
       bubbleClassName: "animate-float-medium [animation-delay:3s]",
-      color: "text-[#67c46a]",
+      color: "text-[#f0db4f]",
     },
   ];
 
