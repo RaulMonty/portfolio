@@ -72,7 +72,7 @@ const Proyectos: React.FC = () => {
         </h2>
 
         <p className="mt-6 max-w-2xl text-white/55 text-base sm:text-lg leading-8">
-          Proyectos centrados en backend y APIs REST, conectados a frontend para crear aplicaciones web reales.
+          Proyectos centrados en diseño y desarrollo de aplicaciones web atractivas y reales, utilizando técnicas de frontend.
         </p>
       </div>
 

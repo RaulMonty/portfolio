@@ -474,22 +474,17 @@ export const CERTS = CERTIFICADOS;
 // ─────────────────────────────────────────────────────────────
 export const EXPERIENCIA = [
   {
-    company: "Clarcat Cantábrico S.L. Gijón",
-    role: "Desarrollo backend con .NET / ASP.NET Core + React",
-    period: "mar. 2025 – jun. 2025",
-    techs: [
-      ".NET 9",
-      "ASP.NET Core",
-      "Entity Framework",
-      "MySQL",
-      "React",
-      "Vite",
-      "Tailwind CSS",
-      "Git",
-    ],
+    company: "Grupo Altia – Proyecto para el Ministerio de Defensa",
+    role: "Frontend Developer / UX UI Designer",
+    period: "may. 2023 – abr. 2026",
+    techs: ["HTML5", "CSS3", "SASS", "Bootstrap", "JavaScript", "Liferay", "Visual Studio", "Git/GitHub", "Figma", "Lighthouse", "Photoshop", "Illustrator", "Excel", "Word"],
     points: [
-      "Backend: Diseñé, desarrollé y optimicé una API REST en .NET 9 / ASP.NET Core, asegurando escalabilidad, mantenibilidad y buenas prácticas.",
-      "Frontend: Implementé interfaces modernas y responsive con React, Vite y Tailwind CSS, mejorando la usabilidad y la experiencia de usuario.",
+      "Lideré el rediseño visual y maquetación responsive de múltiples portales institucionales del Ministerio de Defensa (El rediseño de este portal por ejemplo, le hice íntegramente yo con Figma, y luego le maqueté junto con mis compañeros: https://reclutamiento.defensa.gob.es).",
+      "Diseñé interfaces completas en Figma aplicando criterios UX/UI, accesibilidad AA y SEO técnico.",
+      "Participé en la migración y modernización de ecosistemas web corporativos bajo tecnología Liferay.",
+      "Intervine en el rediseño de más de 10 portales institucionales garantizando experiencia responsive, accesibilidad AA y consistencia visual.",
+      "Implementé componentes reutilizables con HTML, CSS, SASS, Bootstrap y JavaScript optimizando consistencia visual y mantenimiento.",
+      "Validé estándares de accesibilidad y rendimiento utilizando Lighthouse y buenas prácticas WCAG.",
     ],
   },
   {

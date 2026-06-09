@@ -467,7 +467,7 @@ const Tecnologias: React.FC = () => {
             </span>
           </h2>
           <p className="mt-6 max-w-2xl text-white/55 text-base sm:text-lg leading-8">
-            Combino backend, APIs REST, bases de datos y frontend para desarrollar aplicaciones web claras, funcionales y mantenibles.
+            Combino diseño web y frontend para desarrollar aplicaciones web claras, funcionales y mantenibles.
           </p>
         </div>
 

@@ -84,7 +84,7 @@ export default function App() {
       Icono: SiTailwindcss,
       etiqueta: "Tailwind CSS",
       color: "text-[#38bdf8]",
-      bg: "bg-[#38bdf8]",
+      bg: "bg-[#081a22]",
       border: "border-[#1b3944]",
     },
     {

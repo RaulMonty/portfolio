@@ -38,7 +38,7 @@ const Experiencia: React.FC = () => {
         </h2>
 
         <p className="mt-6 max-w-2xl text-white/55 text-base sm:text-lg leading-8">
-          Desarrollo frontend y aplicaciones web poniendo foco en el código limpio, mantenibilidad y buenas prácticas.
+          Diseño web y desarrollo frontend de aplicaciones digitales, poniendo foco en el código limpio, mantenibilidad y buenas prácticas.
         </p>
       </div>
 
@@ -104,7 +104,7 @@ const Experiencia: React.FC = () => {
         {/* contenido */}
         <div className="mt-6 text-center">
           <p className="text-white/50 text-sm sm:text-[15px]">
-            Si quieres ver mi trayectoria con más detalle, puedes descargar mi CV completo.
+            Si quieres ver mi trayectoria con más detalle, puedes descargar mi CV completo en el siguiente enlace:
           </p>
 
           <div className="mt-8">
