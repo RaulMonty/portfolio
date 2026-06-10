@@ -256,8 +256,8 @@ const Tecnologias: React.FC = () => {
     {
       Icono: SiFigma,
       etiqueta: "Figma",
-      ring: "ring-[#421d73]",
-      bg: "bg-[#160c22] text-[#9d56f8]",
+      ring: "ring-[#9d56f8]",
+      bg: "bg-[#f0e5fe] text-[#9d56f8]",
     },
     {
       Icono: SiVuedotjs,
