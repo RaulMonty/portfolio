@@ -1,10 +1,9 @@
 import React from "react";
 import {
-  SiHtml5,
   SiCss3,
   SiJavascript,
   SiTypescript,
-  SiReact,
+  SiHtml5,
   SiAngular,
   SiVuedotjs,
   SiQuasar,
@@ -85,8 +84,8 @@ const Tecnologias: React.FC = () => {
     {
       Icono: SiHtml5,
       etiqueta: "HTML5",
-      ring: "ring-[#ffdcd1]",
-      bg: "bg-[#fff5f1] text-[#E34F26]",
+      ring: "ring-[#e54d26]",
+      bg: "bg-[#fbe4de] text-[#e54d26]",
     },
     {
       Icono: SiCss3,
@@ -104,10 +103,10 @@ const Tecnologias: React.FC = () => {
 
   const FRONTEND: TechItem[] = [
     {
-      Icono: SiReact,
-      etiqueta: "React",
+      Icono: SiHtml5,
+      etiqueta: "HTML5",
       ring: "ring-[#cfefff]",
-      bg: "bg-[#f0fcff] text-[#61DAFB]",
+      bg: "bg-[#fbe4de] text-[#61DAFB]",
     },
     {
       Icono: SiAngular,
@@ -284,10 +283,10 @@ const Tecnologias: React.FC = () => {
       bg: "bg-[#f8f6ff] text-[#512BD4]",
     },
     {
-      Icono: SiReact,
-      etiqueta: "React",
-      ring: "ring-[#cfefff]",
-      bg: "bg-[#f0fcff] text-[#61DAFB]",
+      Icono: SiHtml5,
+      etiqueta: "HTML5",
+      ring: "ring-[#e54d26]",
+      bg: "bg-[#fbe4de] text-[#e54d26]",
     },
     {
       Icono: SiMysql,
