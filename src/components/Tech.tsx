@@ -1,18 +1,12 @@
 import React from "react";
 import {
-  SiCss3,
   SiJavascript,
-  SiTypescript,
   SiHtml5,
-  SiAngular,
-  SiVuedotjs,
+  SiDrupal,
   SiQuasar,
-  SiNodedotjs,
   SiFigma,
-  SiDotnet,
   SiExpress,
   SiKotlin,
-  SiMysql,
   SiPostgresql,
   SiSqlite,
   SiOracle,
@@ -28,7 +22,13 @@ import {
   SiPrettier,
   SiWebpack,
 } from "react-icons/si";
-import { TbBrandCSharp } from "react-icons/tb";
+import { FaCss3Alt } from "react-icons/fa";
+import {
+  TbBrandCSharp,
+  TbBrandAdobePhotoshop,
+  TbBrandAdobeIllustrator,
+  TbBrandAdobeIndesign
+} from "react-icons/tb";
 import { FaJava } from "react-icons/fa6";
 import {
   Layers,
@@ -69,16 +69,16 @@ const Tecnologias: React.FC = () => {
       bg: "bg-[#fff5f5] text-[#EA2D2E]",
     },
     {
-      Icono: SiTypescript,
-      etiqueta: "TypeScript",
-      ring: "ring-[#d9e9ff]",
-      bg: "bg-[#f4f9ff] text-[#3178C6]",
+      Icono: SiJavascript,
+      etiqueta: "JavaScript",
+      ring: "ring-[#f0db4f]",
+      bg: "bg-[#fdf9e4] text-[#f0db4f]",
     },
     {
       Icono: SiJavascript,
       etiqueta: "JavaScript",
-      ring: "ring-[#ffefb3]",
-      bg: "bg-[#fffbed] text-[#C8A500]",
+      ring: "ring-[#f0db4f]",
+      bg: "bg-[#fdf9e4] text-[#f0db4f]",
     },
 
     {
@@ -88,10 +88,10 @@ const Tecnologias: React.FC = () => {
       bg: "bg-[#fbe4de] text-[#e54d26]",
     },
     {
-      Icono: SiCss3,
+      Icono: FaCss3Alt,
       etiqueta: "CSS3",
-      ring: "ring-[#dcecff]",
-      bg: "bg-[#f6fbff] text-[#1572B6]",
+      ring: "ring-[#379ad5]",
+      bg: "bg-[#e0f0f9] text-[#379ad5]",
     },
     {
       Icono: SiKotlin,
@@ -109,16 +109,16 @@ const Tecnologias: React.FC = () => {
       bg: "bg-[#fbe4de] text-[#61DAFB]",
     },
     {
-      Icono: SiAngular,
-      etiqueta: "Angular",
-      ring: "ring-[#ffd3d9]",
-      bg: "bg-[#fff1f3] text-[#DD0031]",
+      Icono: FaCss3Alt,
+      etiqueta: "CSS3",
+      ring: "ring-[#379ad5]",
+      bg: "bg-[#e0f0f9] text-[#379ad5]",
     },
     {
-      Icono: SiVuedotjs,
-      etiqueta: "Vue.js",
-      ring: "ring-[#cfeadf]",
-      bg: "bg-[#f3fff7] text-[#42B883]",
+      Icono: SiDrupal,
+      etiqueta: "Drupal",
+      ring: "ring-[#27a9df]",
+      bg: "bg-[#def2fa] text-[#27a9df]",
     },
     {
       Icono: SiQuasar,
@@ -136,10 +136,10 @@ const Tecnologias: React.FC = () => {
 
   const BACKEND: TechItem[] = [
     {
-      Icono: SiDotnet,
-      etiqueta: ".NET / ASP.NET",
-      ring: "ring-[#e1d6ff]",
-      bg: "bg-[#f8f6ff] text-[#512BD4]",
+      Icono: TbBrandAdobePhotoshop,
+      etiqueta: "Adobe Photoshop",
+      ring: "ring-[#31a8ff]",
+      bg: "bg-[#dff2ff] text-[#31a8ff]",
     },
     {
       Icono: SiFigma,
@@ -148,10 +148,10 @@ const Tecnologias: React.FC = () => {
       bg: "bg-[#f0e5fe] text-[#9d56f8]",
     },
     {
-      Icono: SiNodedotjs,
-      etiqueta: "Node.js",
-      ring: "ring-[#d5f0d1]",
-      bg: "bg-[#f6fff6] text-[#339933]",
+      Icono: TbBrandAdobeIllustrator,
+      etiqueta: "Adobe Illustrator",
+      ring: "ring-[#FFA500]",
+      bg: "bg-[#fff1d8] text-[#FFA500]",
     },
     {
       Icono: SiExpress,
@@ -167,10 +167,10 @@ const Tecnologias: React.FC = () => {
       bg: "bg-[#fff5f5] text-[#F80000]",
     },
     {
-      Icono: SiMysql,
-      etiqueta: "MySQL",
-      ring: "ring-[#cfe8f0]",
-      bg: "bg-[#f4fbff] text-[#00758F]",
+      Icono: TbBrandAdobeIndesign,
+      etiqueta: "Adobe Indesign",
+      ring: "ring-[#E749A0]",
+      bg: "bg-[#fbe3f0] text-[#E749A0]",
     },
     {
       Icono: SiPostgresql,
@@ -259,28 +259,28 @@ const Tecnologias: React.FC = () => {
       bg: "bg-[#f0e5fe] text-[#9d56f8]",
     },
     {
-      Icono: SiVuedotjs,
+      Icono: SiDrupal,
       etiqueta: "Vue.js",
-      ring: "ring-[#cfeadf]",
-      bg: "bg-[#f3fff7] text-[#42B883]",
+      ring: "ring-[#27a9df]",
+      bg: "bg-[#def2fa] text-[#27a9df]",
     },
     {
-      Icono: SiNodedotjs,
-      etiqueta: "Node.js",
-      ring: "ring-[#d5f0d1]",
-      bg: "bg-[#f6fff6] text-[#339933]",
+      Icono: TbBrandAdobeIllustrator,
+      etiqueta: "Adobe Illustrator",
+      ring: "ring-[#FFA500]",
+      bg: "bg-[#fff1d8] text-[#FFA500]",
     },
     {
-      Icono: SiAngular,
-      etiqueta: "Angular",
-      ring: "ring-[#cfe8f0]",
-      bg: "bg-[#f4fbff] text-[#00758F]",
+      Icono: FaCss3Alt,
+      etiqueta: "CSS3",
+      ring: "ring-[#379ad5]",
+      bg: "bg-[#e0f0f9] text-[#379ad5]",
     },
     {
-      Icono: SiDotnet,
+      Icono: TbBrandAdobePhotoshop,
       etiqueta: ".NET",
-      ring: "ring-[#e1d6ff]",
-      bg: "bg-[#f8f6ff] text-[#512BD4]",
+      ring: "ring-[#31a8ff]",
+      bg: "bg-[#dff2ff] text-[#31a8ff]",
     },
     {
       Icono: SiHtml5,
@@ -289,16 +289,16 @@ const Tecnologias: React.FC = () => {
       bg: "bg-[#fbe4de] text-[#e54d26]",
     },
     {
-      Icono: SiMysql,
+      Icono: TbBrandAdobeIndesign,
       etiqueta: "MySQL",
-      ring: "ring-[#cfe9ff]",
-      bg: "bg-[#f4fbff] text-[#2496ED]",
+      ring: "ring-[#E749A0]",
+      bg: "bg-[#fbe3f0] text-[#E749A0]",
     },
     {
-      Icono: SiTypescript,
-      etiqueta: "TypeScript",
-      ring: "ring-[#d9e9ff]",
-      bg: "bg-[#f4f9ff] text-[#3178C6]",
+      Icono: SiJavascript,
+      etiqueta: "JavaScript",
+      ring: "ring-[#f0db4f]",
+      bg: "bg-[#fdf9e4] text-[#f0db4f]",
     }
   ];
 
