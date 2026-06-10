@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
   const FLOATING_TECHS: FloatingTech[] = [
     {
       Icono: SiHtml5,
-      label: "HTML 5",
+      label: "HTML5",
       wrapperClassName:
         "absolute left-[8%] top-[12%] sm:left-[11%] sm:top-[15%] lg:left-[10%] lg:top-[14%]",
       bubbleClassName: "animate-float-slow [animation-delay:0s]",
@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
     },
     {
       Icono: FaCss3Alt,
-      label: "CSS 3",
+      label: "CSS3",
       wrapperClassName:
         "absolute right-[8%] top-[12%] sm:right-[10%] sm:top-[13%] lg:right-[9%] lg:top-[12%]",
       bubbleClassName: "animate-float-medium [animation-delay:.6s]",

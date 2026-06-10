@@ -54,14 +54,14 @@ export default function App() {
     },
     {
       Icono: SiHtml5,
-      etiqueta: "HTML 5",
+      etiqueta: "HTML5",
       color: "text-[#e54d26]",
       bg: "bg-[#1f0b05]",
       border: "border-[#732e1d]",
     },
     {
       Icono: FaCss3Alt,
-      etiqueta: "CSS 3",
+      etiqueta: "CSS3",
       color: "text-[#379ad5]",
       bg: "bg-[#08151d]",
       border: "border-[#1d5373]",
