@@ -502,7 +502,7 @@ const Tecnologias: React.FC = () => {
             <div className="absolute right-[5%] bottom-[23%] sm:right-[10%] sm:bottom-[18%]">
               <TechPill item={DESTACADAS[3]} radarMobile />
             </div>
-            <div className="absolute left-[20%] top-[55%] sm:left-[16%] sm:top-[52%]">
+            <div className="absolute left-[20%] top-[55%] sm:left-[4%] sm:top-[52%]">
               <TechPill item={DESTACADAS[4]} radarMobile />
             </div>
             <div className="absolute right-[16%] top-[55%] sm:right-[14%] sm:top-[52%]">

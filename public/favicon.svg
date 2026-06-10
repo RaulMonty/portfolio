@@ -4,12 +4,12 @@
 	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
-	.st1{fill:#1E6BFF;}
+	.st1{fill:#53EAFD;}
 </style>
 <g>
-	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="10.895" y1="32" x2="53.1049" y2="32">
-		<stop  offset="0" style="stop-color:#1E6BFF"/>
-		<stop  offset="1" style="stop-color:#01F9F9"/>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="10.8949" y1="32" x2="53.105" y2="32">
+		<stop  offset="0" style="stop-color:#51A2FF"/>
+		<stop  offset="1" style="stop-color:#53EAFD"/>
 	</linearGradient>
 	<path class="st0" d="M53.1,30.6v9.4c0,1.2-1,2.2-2.2,2.2c-0.6,0-2.2,0-2.2,0l0-11.7c0-2.5-2-4.5-4.5-4.5h-0.3c-2.5,0-4.5,2-4.5,4.5
 		v2.7l0,0c0,1.2-1,2.2-2.2,2.2c0,0,0,0-0.1,0s0,0-0.1,0c-0.5,0-2.2,0-2.2,0s0-1,0-2.1c0,0,0-0.1,0-0.1v-2.7c0,0,0-0.1,0-0.1
@@ -18,8 +18,8 @@
 		c-4.9,0-8.9,4-8.9,8.9l0,6.7l0,3l0,2l2.2,0l0,0c1.2,0,2.2-1,2.2-2.2v-2v-0.3v-7.1c0-2.5,2-4.5,4.5-4.5h0.3c0.5,0,0.9,0.1,1.3,0.2
 		C22.1,24.9,23.1,23.7,24.3,22.8z"/>
 	<g>
-		<path class="st1" d="M32,64C14.4,64,0,49.6,0,32S14.4,0,32,0c17.6,0,32,14.4,32,32S49.6,64,32,64z M32,2.3
-			C15.6,2.3,2.3,15.6,2.3,32S15.6,61.7,32,61.7c16.4,0,29.7-13.3,29.7-29.7S48.4,2.3,32,2.3z"/>
+		<path class="st1" d="M32,64C14.4,64,0,49.6,0,32C0,14.4,14.4,0,32,0s32,14.4,32,32C64,49.6,49.6,64,32,64z M32,2.3
+			C15.6,2.3,2.3,15.6,2.3,32S15.6,61.7,32,61.7S61.7,48.4,61.7,32S48.4,2.3,32,2.3z"/>
 	</g>
 </g>
 </svg>
