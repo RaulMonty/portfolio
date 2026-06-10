@@ -332,19 +332,14 @@ export const CERT_LOGO = LOGO_CERT;
 // ─────────────────────────────────────────────────────────────
 export const EDUCACION = [
   {
-    title: "CFGS Desarrollo de Aplicaciones Multiplataforma",
-    center: "IES Número 1 Gijón",
-    period: "sept. 2024 – jun. 2025",
+    title: "Certificado de Profesionalidad Confección y Publicación de Páginas Web (Nivel II)",
+    center: "Centro TIC Madrid",
+    period: "2013",
   },
   {
-    title: "CFGS Desarrollo de Aplicaciones Web",
-    center: "CIFP La Laboral",
-    period: "sept. 2022 – jun. 2024",
-  },
-  {
-    title: "CFGS Administración de Sistemas Informáticos",
-    center: "IES Número 1 Gijón",
-    period: "sept. 2009 – jun. 2011",
+    title: "Bachillerato Artístico",
+    center: "IES Antonio López - Getafe (Madrid)",
+    period: "1997 – 1999",
   },
 ];
 export const EDUCATION = EDUCACION;

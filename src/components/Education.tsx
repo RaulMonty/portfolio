@@ -31,7 +31,7 @@ const Educacion: React.FC = () => (
       </h2>
 
       <p className="mt-6 max-w-2xl text-white/55 text-base sm:text-lg leading-8">
-       Formación enfocada en desarrollo backend y aplicaciones web, trabajando con .NET, APIs REST y tecnologías actuales.
+       Formación enfocada en diseño web, desarrollo frontend y tecnologías actuales.
       </p>
     </div>
 

@@ -72,26 +72,19 @@ const Tecnologias: React.FC = () => {
       Icono: SiJavascript,
       etiqueta: "JavaScript",
       ring: "ring-[#f0db4f]",
-      bg: "bg-[#fdf9e4] text-[#f0db4f]",
+      bg: "bg-[#fdfbed] text-[#f0db4f]",
     },
-    {
-      Icono: SiJavascript,
-      etiqueta: "JavaScript",
-      ring: "ring-[#f0db4f]",
-      bg: "bg-[#fdf9e4] text-[#f0db4f]",
-    },
-
     {
       Icono: SiHtml5,
       etiqueta: "HTML5",
       ring: "ring-[#e54d26]",
-      bg: "bg-[#fbe4de] text-[#e54d26]",
+      bg: "bg-[#fcede9] text-[#e54d26]",
     },
     {
       Icono: FaCss3Alt,
       etiqueta: "CSS3",
       ring: "ring-[#379ad5]",
-      bg: "bg-[#e0f0f9] text-[#379ad5]",
+      bg: "bg-[#ebf5fb] text-[#379ad5]",
     },
     {
       Icono: SiKotlin,
@@ -106,19 +99,19 @@ const Tecnologias: React.FC = () => {
       Icono: SiHtml5,
       etiqueta: "HTML5",
       ring: "ring-[#cfefff]",
-      bg: "bg-[#fbe4de] text-[#61DAFB]",
+      bg: "bg-[#fcede9] text-[#61DAFB]",
     },
     {
       Icono: FaCss3Alt,
       etiqueta: "CSS3",
       ring: "ring-[#379ad5]",
-      bg: "bg-[#e0f0f9] text-[#379ad5]",
+      bg: "bg-[#ebf5fb] text-[#379ad5]",
     },
     {
       Icono: SiDrupal,
       etiqueta: "Drupal",
       ring: "ring-[#27a9df]",
-      bg: "bg-[#def2fa] text-[#27a9df]",
+      bg: "bg-[#e9f6fc] text-[#27a9df]",
     },
     {
       Icono: SiQuasar,
@@ -139,19 +132,19 @@ const Tecnologias: React.FC = () => {
       Icono: TbBrandAdobePhotoshop,
       etiqueta: "Adobe Photoshop",
       ring: "ring-[#31a8ff]",
-      bg: "bg-[#dff2ff] text-[#31a8ff]",
+      bg: "bg-[#eaf6ff] text-[#31a8ff]",
     },
     {
       Icono: SiFigma,
       etiqueta: "Figma",
       ring: "ring-[#9d56f8]",
-      bg: "bg-[#f0e5fe] text-[#9d56f8]",
+      bg: "bg-[#f5eefe] text-[#9d56f8]",
     },
     {
       Icono: TbBrandAdobeIllustrator,
       etiqueta: "Adobe Illustrator",
       ring: "ring-[#FFA500]",
-      bg: "bg-[#fff1d8] text-[#FFA500]",
+      bg: "bg-[#fff6e5] text-[#FFA500]",
     },
     {
       Icono: SiExpress,
@@ -170,7 +163,7 @@ const Tecnologias: React.FC = () => {
       Icono: TbBrandAdobeIndesign,
       etiqueta: "Adobe Indesign",
       ring: "ring-[#E749A0]",
-      bg: "bg-[#fbe3f0] text-[#E749A0]",
+      bg: "bg-[#fdecf5] text-[#E749A0]",
     },
     {
       Icono: SiPostgresql,
@@ -256,49 +249,49 @@ const Tecnologias: React.FC = () => {
       Icono: SiFigma,
       etiqueta: "Figma",
       ring: "ring-[#9d56f8]",
-      bg: "bg-[#f0e5fe] text-[#9d56f8]",
+      bg: "bg-[#f5eefe] text-[#9d56f8]",
     },
     {
       Icono: SiDrupal,
-      etiqueta: "Vue.js",
+      etiqueta: "Drupal",
       ring: "ring-[#27a9df]",
-      bg: "bg-[#def2fa] text-[#27a9df]",
+      bg: "bg-[#e9f6fc] text-[#27a9df]",
     },
     {
       Icono: TbBrandAdobeIllustrator,
       etiqueta: "Adobe Illustrator",
       ring: "ring-[#FFA500]",
-      bg: "bg-[#fff1d8] text-[#FFA500]",
+      bg: "bg-[#fff6e5] text-[#FFA500]",
     },
     {
       Icono: FaCss3Alt,
       etiqueta: "CSS3",
       ring: "ring-[#379ad5]",
-      bg: "bg-[#e0f0f9] text-[#379ad5]",
+      bg: "bg-[#ebf5fb] text-[#379ad5]",
     },
     {
       Icono: TbBrandAdobePhotoshop,
-      etiqueta: ".NET",
+      etiqueta: "Adobe Photoshop",
       ring: "ring-[#31a8ff]",
-      bg: "bg-[#dff2ff] text-[#31a8ff]",
+      bg: "bg-[#eaf6ff] text-[#31a8ff]",
     },
     {
       Icono: SiHtml5,
       etiqueta: "HTML5",
       ring: "ring-[#e54d26]",
-      bg: "bg-[#fbe4de] text-[#e54d26]",
+      bg: "bg-[#fcede9] text-[#e54d26]",
     },
     {
       Icono: TbBrandAdobeIndesign,
-      etiqueta: "MySQL",
+      etiqueta: "Adobe Indesign",
       ring: "ring-[#E749A0]",
-      bg: "bg-[#fbe3f0] text-[#E749A0]",
+      bg: "bg-[#fdecf5] text-[#E749A0]",
     },
     {
       Icono: SiJavascript,
       etiqueta: "JavaScript",
       ring: "ring-[#f0db4f]",
-      bg: "bg-[#fdf9e4] text-[#f0db4f]",
+      bg: "bg-[#fdfbed] text-[#f0db4f]",
     }
   ];
 
@@ -509,10 +502,10 @@ const Tecnologias: React.FC = () => {
             <div className="absolute right-[5%] bottom-[23%] sm:right-[10%] sm:bottom-[18%]">
               <TechPill item={DESTACADAS[3]} radarMobile />
             </div>
-            <div className="absolute left-[20%] top-[55%] sm:left-[22%] sm:top-[52%]">
+            <div className="absolute left-[20%] top-[55%] sm:left-[16%] sm:top-[52%]">
               <TechPill item={DESTACADAS[4]} radarMobile />
             </div>
-            <div className="absolute right-[16%] top-[55%] sm:right-[18%] sm:top-[52%]">
+            <div className="absolute right-[16%] top-[55%] sm:right-[14%] sm:top-[52%]">
               <TechPill item={DESTACADAS[5]} radarMobile />
             </div>
             <div className="absolute left-[28%] bottom-[8%] sm:left-[30%] sm:bottom-[8%]">
@@ -530,21 +523,21 @@ const Tecnologias: React.FC = () => {
         <CategoryPanel
           icon={<Braces className="w-5 h-5" />}
           title="Lenguajes"
-          description="Lenguajes con los que construyo lógica, estructura y experiencia de usuario en distintos entornos."
+          description="Lenguajes con los que construyo estructura, aspecto, lógica y experiencia de usuario en distintos entornos."
           items={LENGUAJES}
         />
 
         <CategoryPanel
           icon={<Monitor className="w-5 h-5" />}
           title="Frontend"
-          description="Frameworks y librerías para crear interfaces rápidas, mantenibles y enfocadas en usabilidad."
+          description="Frameworks y librerías UI para crear interfaces rápidas, mantenibles y enfocadas en usabilidad."
           items={FRONTEND}
         />
 
         <CategoryPanel
           icon={<Server className="w-5 h-5" />}
-          title="Backend & BBDD"
-          description="Tecnologías orientadas a APIs, lógica de negocio, persistencia y modelado de datos."
+          title="Diseño"
+          description="Tecnologías orientadas a diseño."
           items={BACKEND}
         />
       </div>
