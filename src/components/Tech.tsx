@@ -4,7 +4,6 @@ import {
   SiHtml5,
   SiDrupal,
   SiFigma,
-  SiExpress,
   SiGit,
   SiGithub,
   SiDocker,
@@ -97,12 +96,6 @@ const Tecnologias: React.FC = () => {
       etiqueta: "Adobe Illustrator",
       ring: "ring-[#FFA500]",
       bg: "bg-[#fff6e5] text-[#FFA500]",
-    },
-    {
-      Icono: SiExpress,
-      etiqueta: "Express",
-      ring: "ring-slate-200",
-      bg: "bg-white text-slate-900",
     },
     {
       Icono: TbBrandAdobeIndesign,
@@ -398,16 +391,16 @@ const Tecnologias: React.FC = () => {
             <div className="absolute right-[5%] top-[14%] sm:right-[10%] sm:top-[14%]">
               <TechPill item={DESTACADAS[1]} radarMobile />
             </div>
-            <div className="absolute left-[4%] bottom-[30%] sm:left-[8%] sm:bottom-[20%]">
+            <div className="absolute left-[4%] bottom-[30%] sm:left-[8%] sm:bottom-[28%]">
               <TechPill item={DESTACADAS[2]} radarMobile />
             </div>
-            <div className="absolute right-[5%] bottom-[30%] sm:right-[10%] sm:bottom-[18%]">
+            <div className="absolute right-[5%] bottom-[30%] sm:right-[10%] sm:bottom-[28%]">
               <TechPill item={DESTACADAS[3]} radarMobile />
             </div>
-            <div className="absolute left-[20%] top-[33%] sm:left-[4%] sm:top-[52%]">
+            <div className="absolute left-[20%] top-[33%] sm:left-[4%] sm:top-[33%]">
               <TechPill item={DESTACADAS[4]} radarMobile />
             </div>
-            <div className="absolute right-[16%] top-[33%] sm:right-[14%] sm:top-[52%]">
+            <div className="absolute right-[16%] top-[33%] sm:right-[14%] sm:top-[33%]">
               <TechPill item={DESTACADAS[5]} radarMobile />
             </div>
             <div className="absolute left-[28%] bottom-[8%] sm:left-[30%] sm:bottom-[8%]">
