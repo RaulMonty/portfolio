@@ -30,10 +30,10 @@ import {
   TbBrandAdobeIndesign
 } from "react-icons/tb";
 import { FaJava } from "react-icons/fa6";
+import { MdDesignServices } from "react-icons/md";
 import {
   Layers,
   Braces,
-  Server,
   Monitor,
   Wrench,
   HeartHandshake,
@@ -535,7 +535,7 @@ const Tecnologias: React.FC = () => {
         />
 
         <CategoryPanel
-          icon={<Server className="w-5 h-5" />}
+          icon={<MdDesignServices className="w-5 h-5" />}
           title="Diseño"
           description="Tecnologías orientadas a diseño."
           items={BACKEND}
