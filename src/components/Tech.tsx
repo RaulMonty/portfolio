@@ -3,33 +3,21 @@ import {
   SiJavascript,
   SiHtml5,
   SiDrupal,
-  SiQuasar,
   SiFigma,
   SiExpress,
-  SiKotlin,
-  SiPostgresql,
-  SiSqlite,
-  SiOracle,
-  SiMongodb,
   SiGit,
   SiGithub,
   SiDocker,
-  SiPostman,
-  SiSwagger,
-  SiJunit5,
   SiVite,
   SiEslint,
   SiPrettier,
-  SiWebpack,
 } from "react-icons/si";
 import { FaCss3Alt } from "react-icons/fa";
 import {
-  TbBrandCSharp,
   TbBrandAdobePhotoshop,
   TbBrandAdobeIllustrator,
   TbBrandAdobeIndesign
 } from "react-icons/tb";
-import { FaJava } from "react-icons/fa6";
 import { MdDesignServices } from "react-icons/md";
 import {
   Layers,
@@ -57,18 +45,6 @@ type TechItem = {
 const Tecnologias: React.FC = () => {
   const LENGUAJES: TechItem[] = [
     {
-      Icono: TbBrandCSharp,
-      etiqueta: "C#",
-      ring: "ring-[#cdebd6]",
-      bg: "bg-[#f4fff6] text-[#239120]",
-    },
-    {
-      Icono: FaJava,
-      etiqueta: "Java",
-      ring: "ring-[#f5c7c7]",
-      bg: "bg-[#fff5f5] text-[#EA2D2E]",
-    },
-    {
       Icono: SiJavascript,
       etiqueta: "JavaScript",
       ring: "ring-[#f0db4f]",
@@ -86,38 +62,14 @@ const Tecnologias: React.FC = () => {
       ring: "ring-[#379ad5]",
       bg: "bg-[#ebf5fb] text-[#379ad5]",
     },
-    {
-      Icono: SiKotlin,
-      etiqueta: "Kotlin",
-      ring: "ring-[#dacfff]",
-      bg: "bg-[#f7f5ff] text-[#7F52FF]",
-    },
   ];
 
   const FRONTEND: TechItem[] = [
-    {
-      Icono: SiHtml5,
-      etiqueta: "HTML5",
-      ring: "ring-[#cfefff]",
-      bg: "bg-[#fcede9] text-[#61DAFB]",
-    },
-    {
-      Icono: FaCss3Alt,
-      etiqueta: "CSS3",
-      ring: "ring-[#379ad5]",
-      bg: "bg-[#ebf5fb] text-[#379ad5]",
-    },
     {
       Icono: SiDrupal,
       etiqueta: "Drupal",
       ring: "ring-[#27a9df]",
       bg: "bg-[#e9f6fc] text-[#27a9df]",
-    },
-    {
-      Icono: SiQuasar,
-      etiqueta: "Quasar",
-      ring: "ring-[#d7e8fb]",
-      bg: "bg-[#f4f9ff] text-[#1976D2]",
     },
     {
       Icono: SiVite,
@@ -127,7 +79,7 @@ const Tecnologias: React.FC = () => {
     },
   ];
 
-  const BACKEND: TechItem[] = [
+  const DISEÑO: TechItem[] = [
     {
       Icono: TbBrandAdobePhotoshop,
       etiqueta: "Adobe Photoshop",
@@ -152,37 +104,11 @@ const Tecnologias: React.FC = () => {
       ring: "ring-slate-200",
       bg: "bg-white text-slate-900",
     },
-
-    {
-      Icono: SiOracle,
-      etiqueta: "Oracle",
-      ring: "ring-[#ffd0d0]",
-      bg: "bg-[#fff5f5] text-[#F80000]",
-    },
     {
       Icono: TbBrandAdobeIndesign,
       etiqueta: "Adobe Indesign",
       ring: "ring-[#E749A0]",
       bg: "bg-[#fdecf5] text-[#E749A0]",
-    },
-    {
-      Icono: SiPostgresql,
-      etiqueta: "PostgreSQL",
-      ring: "ring-[#d6ddfd]",
-      bg: "bg-[#f5f7ff] text-[#4169E1]",
-    },
-
-    {
-      Icono: SiMongodb,
-      etiqueta: "MongoDB",
-      ring: "ring-[#cfead1]",
-      bg: "bg-[#f3fff3] text-[#47A248]",
-    },
-    {
-      Icono: SiSqlite,
-      etiqueta: "SQLite",
-      ring: "ring-[#cbdde8]",
-      bg: "bg-[#f3f9ff] text-[#003B57]",
     },
   ];
 
@@ -206,24 +132,6 @@ const Tecnologias: React.FC = () => {
       bg: "bg-[#f4fbff] text-[#2496ED]",
     },
     {
-      Icono: SiPostman,
-      etiqueta: "Postman",
-      ring: "ring-[#ffd9c9]",
-      bg: "bg-[#fff5ef] text-[#FF6C37]",
-    },
-    {
-      Icono: SiSwagger,
-      etiqueta: "Swagger",
-      ring: "ring-[#e2f6bf]",
-      bg: "bg-[#f7ffea] text-[#85EA2D]",
-    },
-    {
-      Icono: SiJunit5,
-      etiqueta: "JUnit",
-      ring: "ring-[#ffe6e2]",
-      bg: "bg-[#fff7f5] text-[#EA2D2E]",
-    },
-    {
       Icono: SiEslint,
       etiqueta: "ESLint",
       ring: "ring-[#e3dcff]",
@@ -234,12 +142,6 @@ const Tecnologias: React.FC = () => {
       etiqueta: "Prettier",
       ring: "ring-[#ffe9c4]",
       bg: "bg-[#fff9e9] text-[#F7B93E]",
-    },
-    {
-      Icono: SiWebpack,
-      etiqueta: "Webpack",
-      ring: "ring-[#d9f1ff]",
-      bg: "bg-[#f4fbff] text-[#8DD6F9]",
     },
   ];
 
@@ -496,16 +398,16 @@ const Tecnologias: React.FC = () => {
             <div className="absolute right-[5%] top-[14%] sm:right-[10%] sm:top-[14%]">
               <TechPill item={DESTACADAS[1]} radarMobile />
             </div>
-            <div className="absolute left-[4%] bottom-[23%] sm:left-[8%] sm:bottom-[20%]">
+            <div className="absolute left-[4%] bottom-[30%] sm:left-[8%] sm:bottom-[20%]">
               <TechPill item={DESTACADAS[2]} radarMobile />
             </div>
-            <div className="absolute right-[5%] bottom-[23%] sm:right-[10%] sm:bottom-[18%]">
+            <div className="absolute right-[5%] bottom-[30%] sm:right-[10%] sm:bottom-[18%]">
               <TechPill item={DESTACADAS[3]} radarMobile />
             </div>
-            <div className="absolute left-[20%] top-[55%] sm:left-[4%] sm:top-[52%]">
+            <div className="absolute left-[20%] top-[33%] sm:left-[4%] sm:top-[52%]">
               <TechPill item={DESTACADAS[4]} radarMobile />
             </div>
-            <div className="absolute right-[16%] top-[55%] sm:right-[14%] sm:top-[52%]">
+            <div className="absolute right-[16%] top-[33%] sm:right-[14%] sm:top-[52%]">
               <TechPill item={DESTACADAS[5]} radarMobile />
             </div>
             <div className="absolute left-[28%] bottom-[8%] sm:left-[30%] sm:bottom-[8%]">
@@ -537,8 +439,8 @@ const Tecnologias: React.FC = () => {
         <CategoryPanel
           icon={<MdDesignServices className="w-5 h-5" />}
           title="Diseño"
-          description="Tecnologías orientadas a diseño."
-          items={BACKEND}
+          description="Tecnologías orientadas al diseño."
+          items={DISEÑO}
         />
       </div>
 
